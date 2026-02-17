@@ -1,16 +1,16 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:sixam_mart_store/common/widgets/custom_bottom_sheet_widget.dart';
-import 'package:sixam_mart_store/common/widgets/custom_snackbar_widget.dart';
-import 'package:sixam_mart_store/features/subscription/controllers/subscription_controller.dart';
-import 'package:sixam_mart_store/features/subscription/domain/models/subscription_transaction_model.dart';
-import 'package:sixam_mart_store/features/subscription/widgets/transaction_details_bottom_sheet.dart';
-import 'package:sixam_mart_store/helper/date_converter_helper.dart';
-import 'package:sixam_mart_store/helper/price_converter_helper.dart';
-import 'package:sixam_mart_store/helper/string_extensions.dart';
-import 'package:sixam_mart_store/util/dimensions.dart';
-import 'package:sixam_mart_store/util/styles.dart';
+import 'package:eliyah_vendeur/common/widgets/custom_bottom_sheet_widget.dart';
+import 'package:eliyah_vendeur/common/widgets/custom_snackbar_widget.dart';
+import 'package:eliyah_vendeur/features/subscription/controllers/subscription_controller.dart';
+import 'package:eliyah_vendeur/features/subscription/domain/models/subscription_transaction_model.dart';
+import 'package:eliyah_vendeur/features/subscription/widgets/transaction_details_bottom_sheet.dart';
+import 'package:eliyah_vendeur/helper/date_converter_helper.dart';
+import 'package:eliyah_vendeur/helper/price_converter_helper.dart';
+import 'package:eliyah_vendeur/helper/string_extensions.dart';
+import 'package:eliyah_vendeur/util/dimensions.dart';
+import 'package:eliyah_vendeur/util/styles.dart';
 
 class TransactionWidget extends StatefulWidget {
   const TransactionWidget({super.key});

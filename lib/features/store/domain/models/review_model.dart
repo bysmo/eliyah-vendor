@@ -1,4 +1,4 @@
-import 'package:sixam_mart_store/features/order/domain/models/order_model.dart';
+import 'package:eliyah_vendeur/features/order/domain/models/order_model.dart';
 
 class ReviewModel {
   int? id;

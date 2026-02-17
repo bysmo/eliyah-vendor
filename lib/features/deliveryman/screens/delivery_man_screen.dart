@@ -1,13 +1,13 @@
-import 'package:sixam_mart_store/features/deliveryman/controllers/deliveryman_controller.dart';
-import 'package:sixam_mart_store/features/deliveryman/domain/models/delivery_man_model.dart';
-import 'package:sixam_mart_store/features/profile/controllers/profile_controller.dart';
-import 'package:sixam_mart_store/helper/route_helper.dart';
-import 'package:sixam_mart_store/util/dimensions.dart';
-import 'package:sixam_mart_store/util/images.dart';
-import 'package:sixam_mart_store/util/styles.dart';
-import 'package:sixam_mart_store/common/widgets/confirmation_dialog_widget.dart';
-import 'package:sixam_mart_store/common/widgets/custom_app_bar_widget.dart';
-import 'package:sixam_mart_store/common/widgets/custom_image_widget.dart';
+import 'package:eliyah_vendeur/features/deliveryman/controllers/deliveryman_controller.dart';
+import 'package:eliyah_vendeur/features/deliveryman/domain/models/delivery_man_model.dart';
+import 'package:eliyah_vendeur/features/profile/controllers/profile_controller.dart';
+import 'package:eliyah_vendeur/helper/route_helper.dart';
+import 'package:eliyah_vendeur/util/dimensions.dart';
+import 'package:eliyah_vendeur/util/images.dart';
+import 'package:eliyah_vendeur/util/styles.dart';
+import 'package:eliyah_vendeur/common/widgets/confirmation_dialog_widget.dart';
+import 'package:eliyah_vendeur/common/widgets/custom_app_bar_widget.dart';
+import 'package:eliyah_vendeur/common/widgets/custom_image_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 

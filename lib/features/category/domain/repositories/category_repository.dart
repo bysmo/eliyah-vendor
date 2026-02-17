@@ -1,9 +1,9 @@
 import 'package:get/get.dart';
-import 'package:sixam_mart_store/api/api_client.dart';
-import 'package:sixam_mart_store/features/category/domain/models/category_model.dart';
-import 'package:sixam_mart_store/features/category/domain/repositories/category_repository_interface.dart';
-import 'package:sixam_mart_store/features/store/domain/models/item_model.dart';
-import 'package:sixam_mart_store/util/app_constants.dart';
+import 'package:eliyah_vendeur/api/api_client.dart';
+import 'package:eliyah_vendeur/features/category/domain/models/category_model.dart';
+import 'package:eliyah_vendeur/features/category/domain/repositories/category_repository_interface.dart';
+import 'package:eliyah_vendeur/features/store/domain/models/item_model.dart';
+import 'package:eliyah_vendeur/util/app_constants.dart';
 
 class CategoryRepository implements CategoryRepositoryInterface {
   final ApiClient apiClient;

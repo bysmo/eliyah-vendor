@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:sixam_mart_store/common/widgets/custom_asset_image_widget.dart';
-import 'package:sixam_mart_store/util/dimensions.dart';
-import 'package:sixam_mart_store/util/styles.dart';
+import 'package:eliyah_vendeur/common/widgets/custom_asset_image_widget.dart';
+import 'package:eliyah_vendeur/util/dimensions.dart';
+import 'package:eliyah_vendeur/util/styles.dart';
 
 class ReportCardWidget extends StatelessWidget {
   final String title;

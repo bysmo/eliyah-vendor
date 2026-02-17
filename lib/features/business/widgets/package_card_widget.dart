@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:sixam_mart_store/features/business/domain/models/package_model.dart';
-import 'package:sixam_mart_store/features/business/widgets/curve_clipper_widget.dart';
-import 'package:sixam_mart_store/features/business/widgets/package_widget.dart';
-import 'package:sixam_mart_store/helper/price_converter_helper.dart';
-import 'package:sixam_mart_store/util/dimensions.dart';
-import 'package:sixam_mart_store/util/styles.dart';
+import 'package:eliyah_vendeur/features/business/domain/models/package_model.dart';
+import 'package:eliyah_vendeur/features/business/widgets/curve_clipper_widget.dart';
+import 'package:eliyah_vendeur/features/business/widgets/package_widget.dart';
+import 'package:eliyah_vendeur/helper/price_converter_helper.dart';
+import 'package:eliyah_vendeur/util/dimensions.dart';
+import 'package:eliyah_vendeur/util/styles.dart';
 
 class PackageCardWidget extends StatelessWidget {
   final int? currentIndex;

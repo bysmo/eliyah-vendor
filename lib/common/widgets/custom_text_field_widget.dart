@@ -1,10 +1,10 @@
 import 'package:country_code_picker/country_code_picker.dart';
-import 'package:sixam_mart_store/common/widgets/custom_asset_image_widget.dart';
-import 'package:sixam_mart_store/util/dimensions.dart';
-import 'package:sixam_mart_store/util/styles.dart';
+import 'package:eliyah_vendeur/common/widgets/custom_asset_image_widget.dart';
+import 'package:eliyah_vendeur/util/dimensions.dart';
+import 'package:eliyah_vendeur/util/styles.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:sixam_mart_store/common/widgets/code_picker_widget.dart';
+import 'package:eliyah_vendeur/common/widgets/code_picker_widget.dart';
 
 class CustomTextFieldWidget extends StatefulWidget {
   final String hintText;

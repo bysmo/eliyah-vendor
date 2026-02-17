@@ -1,5 +1,5 @@
-import 'package:sixam_mart_store/api/api_client.dart';
-import 'package:sixam_mart_store/features/rental_module/driver/domain/repositories/driver_repository_interface.dart';
+import 'package:eliyah_vendeur/api/api_client.dart';
+import 'package:eliyah_vendeur/features/rental_module/driver/domain/repositories/driver_repository_interface.dart';
 
 class DriverRepository implements DriverRepositoryInterface {
   final ApiClient apiClient;

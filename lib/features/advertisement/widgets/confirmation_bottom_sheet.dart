@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:sixam_mart_store/common/widgets/custom_button_widget.dart';
-import 'package:sixam_mart_store/common/widgets/custom_text_field_widget.dart';
-import 'package:sixam_mart_store/features/advertisement/controllers/advertisement_controller.dart';
-import 'package:sixam_mart_store/util/dimensions.dart';
-import 'package:sixam_mart_store/util/styles.dart';
+import 'package:eliyah_vendeur/common/widgets/custom_button_widget.dart';
+import 'package:eliyah_vendeur/common/widgets/custom_text_field_widget.dart';
+import 'package:eliyah_vendeur/features/advertisement/controllers/advertisement_controller.dart';
+import 'package:eliyah_vendeur/util/dimensions.dart';
+import 'package:eliyah_vendeur/util/styles.dart';
 
 class ConfirmationBottomSheet extends StatefulWidget {
   final String image;

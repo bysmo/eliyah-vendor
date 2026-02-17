@@ -1,4 +1,4 @@
-import 'package:sixam_mart_store/features/chat/domain/models/conversation_model.dart';
+import 'package:eliyah_vendeur/features/chat/domain/models/conversation_model.dart';
 
 class MessageModel {
   int? totalSize;

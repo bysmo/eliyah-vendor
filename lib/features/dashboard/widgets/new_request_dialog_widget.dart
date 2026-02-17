@@ -1,12 +1,12 @@
 import 'dart:async';
 import 'package:audioplayers/audioplayers.dart';
-import 'package:sixam_mart_store/features/auth/controllers/auth_controller.dart';
-import 'package:sixam_mart_store/features/rental_module/trips/screens/trip_details_screen.dart';
-import 'package:sixam_mart_store/helper/route_helper.dart';
-import 'package:sixam_mart_store/util/dimensions.dart';
-import 'package:sixam_mart_store/util/images.dart';
-import 'package:sixam_mart_store/util/styles.dart';
-import 'package:sixam_mart_store/common/widgets/custom_button_widget.dart';
+import 'package:eliyah_vendeur/features/auth/controllers/auth_controller.dart';
+import 'package:eliyah_vendeur/features/rental_module/trips/screens/trip_details_screen.dart';
+import 'package:eliyah_vendeur/helper/route_helper.dart';
+import 'package:eliyah_vendeur/util/dimensions.dart';
+import 'package:eliyah_vendeur/util/images.dart';
+import 'package:eliyah_vendeur/util/styles.dart';
+import 'package:eliyah_vendeur/common/widgets/custom_button_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 

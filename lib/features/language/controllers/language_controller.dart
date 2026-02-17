@@ -1,10 +1,10 @@
-import 'package:sixam_mart_store/features/auth/controllers/auth_controller.dart';
-import 'package:sixam_mart_store/features/store/controllers/store_controller.dart';
-import 'package:sixam_mart_store/features/language/domain/models/language_model.dart';
-import 'package:sixam_mart_store/util/app_constants.dart';
+import 'package:eliyah_vendeur/features/auth/controllers/auth_controller.dart';
+import 'package:eliyah_vendeur/features/store/controllers/store_controller.dart';
+import 'package:eliyah_vendeur/features/language/domain/models/language_model.dart';
+import 'package:eliyah_vendeur/util/app_constants.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:sixam_mart_store/features/language/domain/services/language_service_interface.dart';
+import 'package:eliyah_vendeur/features/language/domain/services/language_service_interface.dart';
 
 class LocalizationController extends GetxController implements GetxService {
   final LanguageServiceInterface languageServiceInterface;

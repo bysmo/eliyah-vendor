@@ -1,5 +1,5 @@
-name: sixam_mart_store
-description: An application for multivendor ecommerce restaurant.
+name: eliyah_vendeur
+description: Application Eliyah-Express pour les vendeurs - gestion de stock, commandes et personnel.
 publish_to: 'none'
 version: 1.0.0+1
 

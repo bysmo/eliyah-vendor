@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:sixam_mart_store/api/api_client.dart';
-import 'package:sixam_mart_store/features/language/domain/repositories/language_repository_interface.dart';
-import 'package:sixam_mart_store/features/profile/controllers/profile_controller.dart';
-import 'package:sixam_mart_store/util/app_constants.dart';
+import 'package:eliyah_vendeur/api/api_client.dart';
+import 'package:eliyah_vendeur/features/language/domain/repositories/language_repository_interface.dart';
+import 'package:eliyah_vendeur/features/profile/controllers/profile_controller.dart';
+import 'package:eliyah_vendeur/util/app_constants.dart';
 
 class LanguageRepository implements LanguageRepositoryInterface {
   final ApiClient apiClient;

@@ -1,19 +1,19 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:just_the_tooltip/just_the_tooltip.dart';
-import 'package:sixam_mart_store/common/widgets/custom_bottom_sheet_widget.dart';
-import 'package:sixam_mart_store/common/widgets/custom_button_widget.dart';
-import 'package:sixam_mart_store/features/auth/controllers/auth_controller.dart';
-import 'package:sixam_mart_store/features/splash/controllers/splash_controller.dart';
-import 'package:sixam_mart_store/features/subscription/controllers/subscription_controller.dart';
-import 'package:sixam_mart_store/features/subscription/widgets/billing_info_widget.dart';
-import 'package:sixam_mart_store/features/subscription/widgets/change_subscription_plan_bottom_sheet.dart';
-import 'package:sixam_mart_store/features/subscription/widgets/subscription_dialog_widget.dart';
-import 'package:sixam_mart_store/helper/date_converter_helper.dart';
-import 'package:sixam_mart_store/helper/price_converter_helper.dart';
-import 'package:sixam_mart_store/util/dimensions.dart';
-import 'package:sixam_mart_store/util/images.dart';
-import 'package:sixam_mart_store/util/styles.dart';
+import 'package:eliyah_vendeur/common/widgets/custom_bottom_sheet_widget.dart';
+import 'package:eliyah_vendeur/common/widgets/custom_button_widget.dart';
+import 'package:eliyah_vendeur/features/auth/controllers/auth_controller.dart';
+import 'package:eliyah_vendeur/features/splash/controllers/splash_controller.dart';
+import 'package:eliyah_vendeur/features/subscription/controllers/subscription_controller.dart';
+import 'package:eliyah_vendeur/features/subscription/widgets/billing_info_widget.dart';
+import 'package:eliyah_vendeur/features/subscription/widgets/change_subscription_plan_bottom_sheet.dart';
+import 'package:eliyah_vendeur/features/subscription/widgets/subscription_dialog_widget.dart';
+import 'package:eliyah_vendeur/helper/date_converter_helper.dart';
+import 'package:eliyah_vendeur/helper/price_converter_helper.dart';
+import 'package:eliyah_vendeur/util/dimensions.dart';
+import 'package:eliyah_vendeur/util/images.dart';
+import 'package:eliyah_vendeur/util/styles.dart';
 
 class SubscriptionDetailsWidget extends StatefulWidget {
   final SubscriptionController subscriptionController;

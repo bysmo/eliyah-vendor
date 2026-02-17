@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:sixam_mart_store/features/profile/controllers/profile_controller.dart';
-import 'package:sixam_mart_store/features/reports/domain/models/expense_model.dart';
-import 'package:sixam_mart_store/features/reports/domain/models/tax_report_model.dart';
-import 'package:sixam_mart_store/features/reports/domain/services/report_service_interface.dart';
-import 'package:sixam_mart_store/helper/date_converter_helper.dart';
+import 'package:eliyah_vendeur/features/profile/controllers/profile_controller.dart';
+import 'package:eliyah_vendeur/features/reports/domain/models/expense_model.dart';
+import 'package:eliyah_vendeur/features/reports/domain/models/tax_report_model.dart';
+import 'package:eliyah_vendeur/features/reports/domain/services/report_service_interface.dart';
+import 'package:eliyah_vendeur/helper/date_converter_helper.dart';
 
 class ReportController extends GetxController implements GetxService {
   final ReportServiceInterface reportServiceInterface;

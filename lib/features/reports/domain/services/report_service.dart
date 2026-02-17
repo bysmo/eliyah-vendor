@@ -1,7 +1,7 @@
-import 'package:sixam_mart_store/features/reports/domain/models/expense_model.dart';
-import 'package:sixam_mart_store/features/reports/domain/models/tax_report_model.dart';
-import 'package:sixam_mart_store/features/reports/domain/repositories/report_repository_interface.dart';
-import 'package:sixam_mart_store/features/reports/domain/services/report_service_interface.dart';
+import 'package:eliyah_vendeur/features/reports/domain/models/expense_model.dart';
+import 'package:eliyah_vendeur/features/reports/domain/models/tax_report_model.dart';
+import 'package:eliyah_vendeur/features/reports/domain/repositories/report_repository_interface.dart';
+import 'package:eliyah_vendeur/features/reports/domain/services/report_service_interface.dart';
 
 class ReportService implements ReportServiceInterface {
   final ReportRepositoryInterface reportRepositoryInterface;

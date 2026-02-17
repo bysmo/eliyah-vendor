@@ -1,7 +1,7 @@
-import 'package:sixam_mart_store/features/subscription/domain/models/check_product_limit_model.dart';
-import 'package:sixam_mart_store/features/subscription/domain/models/subscription_transaction_model.dart';
-import 'package:sixam_mart_store/features/subscription/domain/repositories/subscription_repository_interface.dart';
-import 'package:sixam_mart_store/features/subscription/domain/services/subscription_service_interface.dart';
+import 'package:eliyah_vendeur/features/subscription/domain/models/check_product_limit_model.dart';
+import 'package:eliyah_vendeur/features/subscription/domain/models/subscription_transaction_model.dart';
+import 'package:eliyah_vendeur/features/subscription/domain/repositories/subscription_repository_interface.dart';
+import 'package:eliyah_vendeur/features/subscription/domain/services/subscription_service_interface.dart';
 import 'package:get/get_connect/http/src/response/response.dart';
 
 class SubscriptionService implements SubscriptionServiceInterface {

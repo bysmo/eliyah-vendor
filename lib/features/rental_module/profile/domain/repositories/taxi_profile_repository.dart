@@ -1,6 +1,6 @@
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:sixam_mart_store/api/api_client.dart';
-import 'package:sixam_mart_store/features/rental_module/profile/domain/repositories/taxi_profile_repository_interface.dart';
+import 'package:eliyah_vendeur/api/api_client.dart';
+import 'package:eliyah_vendeur/features/rental_module/profile/domain/repositories/taxi_profile_repository_interface.dart';
 
 class TaxiProfileRepository implements TaxiProfileRepositoryInterface {
   final ApiClient apiClient;

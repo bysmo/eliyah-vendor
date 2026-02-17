@@ -1,5 +1,5 @@
 import 'package:get/get.dart';
-import 'package:sixam_mart_store/features/rental_module/trips/domain/services/trip_service_interface.dart';
+import 'package:eliyah_vendeur/features/rental_module/trips/domain/services/trip_service_interface.dart';
 
 class TripController extends GetxController implements GetxService {
   final TripServiceInterface tripServiceInterface;

@@ -1,19 +1,19 @@
 import 'package:flutter/foundation.dart';
-import 'package:sixam_mart_store/common/widgets/custom_app_bar_widget.dart';
-import 'package:sixam_mart_store/common/widgets/custom_card.dart';
-import 'package:sixam_mart_store/common/widgets/custom_drop_down_button.dart.dart';
-import 'package:sixam_mart_store/common/widgets/custom_text_field_widget.dart';
-import 'package:sixam_mart_store/features/addon/controllers/addon_controller.dart';
-import 'package:sixam_mart_store/features/splash/controllers/splash_controller.dart';
-import 'package:sixam_mart_store/common/models/config_model.dart';
-import 'package:sixam_mart_store/features/store/controllers/store_controller.dart';
-import 'package:sixam_mart_store/features/store/domain/models/item_model.dart';
-import 'package:sixam_mart_store/util/dimensions.dart';
-import 'package:sixam_mart_store/common/widgets/custom_button_widget.dart';
-import 'package:sixam_mart_store/common/widgets/custom_snackbar_widget.dart';
+import 'package:eliyah_vendeur/common/widgets/custom_app_bar_widget.dart';
+import 'package:eliyah_vendeur/common/widgets/custom_card.dart';
+import 'package:eliyah_vendeur/common/widgets/custom_drop_down_button.dart.dart';
+import 'package:eliyah_vendeur/common/widgets/custom_text_field_widget.dart';
+import 'package:eliyah_vendeur/features/addon/controllers/addon_controller.dart';
+import 'package:eliyah_vendeur/features/splash/controllers/splash_controller.dart';
+import 'package:eliyah_vendeur/common/models/config_model.dart';
+import 'package:eliyah_vendeur/features/store/controllers/store_controller.dart';
+import 'package:eliyah_vendeur/features/store/domain/models/item_model.dart';
+import 'package:eliyah_vendeur/util/dimensions.dart';
+import 'package:eliyah_vendeur/common/widgets/custom_button_widget.dart';
+import 'package:eliyah_vendeur/common/widgets/custom_snackbar_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:sixam_mart_store/util/styles.dart';
+import 'package:eliyah_vendeur/util/styles.dart';
 
 class AddAddonScreen extends StatefulWidget {
   final AddOns? addon;

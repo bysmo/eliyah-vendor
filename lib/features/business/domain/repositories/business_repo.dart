@@ -1,9 +1,9 @@
 import 'package:get/get.dart';
-import 'package:sixam_mart_store/api/api_client.dart';
-import 'package:sixam_mart_store/features/business/domain/models/business_plan_body.dart';
-import 'package:sixam_mart_store/features/business/domain/models/package_model.dart';
-import 'package:sixam_mart_store/features/business/domain/repositories/business_repo_interface.dart';
-import 'package:sixam_mart_store/util/app_constants.dart';
+import 'package:eliyah_vendeur/api/api_client.dart';
+import 'package:eliyah_vendeur/features/business/domain/models/business_plan_body.dart';
+import 'package:eliyah_vendeur/features/business/domain/models/package_model.dart';
+import 'package:eliyah_vendeur/features/business/domain/repositories/business_repo_interface.dart';
+import 'package:eliyah_vendeur/util/app_constants.dart';
 
 class BusinessRepo implements BusinessRepoInterface<dynamic> {
   final ApiClient apiClient;

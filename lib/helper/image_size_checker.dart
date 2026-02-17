@@ -1,6 +1,6 @@
 import 'package:file_picker/file_picker.dart';
 import 'package:image_picker/image_picker.dart';
-import 'package:sixam_mart_store/api/api_client.dart';
+import 'package:eliyah_vendeur/api/api_client.dart';
 
 class ImageSize{
 

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:shimmer_animation/shimmer_animation.dart';
-import 'package:sixam_mart_store/util/dimensions.dart';
+import 'package:eliyah_vendeur/util/dimensions.dart';
 
 class CustomerReviewScreenShimmer extends StatelessWidget {
   const CustomerReviewScreenShimmer({super.key});

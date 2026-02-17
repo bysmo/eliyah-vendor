@@ -1,15 +1,15 @@
-import 'package:sixam_mart_store/features/language/domain/models/language_model.dart';
-import 'package:sixam_mart_store/util/images.dart';
+import 'package:eliyah_vendeur/features/language/domain/models/language_model.dart';
+import 'package:eliyah_vendeur/util/images.dart';
 
 class AppConstants {
-  static const String appName = '6amMart Vendor';
+  static const String appName = 'Eliyah-Express Vendeur';
   static const double appVersion = 3.6; ///Flutter SDK: 3.38.5
 
   static const String fontFamily = 'Roboto';
   static const double limitOfPickedVideoSizeInMB = 50;
   static const double maxSizeOfASingleFile = 10;
 
-  static const String baseUrl = 'https://6ammart-admin.6amtech.com';
+  static const String baseUrl = 'https://eliyah.aladints.com';
 
   static const String configUri = '/api/v1/config';
   static const String loginUri = '/api/v1/auth/vendor/login';
@@ -213,26 +213,26 @@ class AppConstants {
   static const String taxiTaxReportUri = '/api/v1/rental/vendor/get-tax-report';
 
   /// Shared Key
-  static const String theme = '6am_mart_store_theme';
-  static const String intro = '6am_mart_store_intro';
-  static const String token = '6am_mart_store_token';
-  static const String type = '6am_mart_store_type';
-  static const String countryCode = '6am_mart_store_country_code';
-  static const String languageCode = '6am_mart_store_language_code';
+  static const String theme = 'eliyah_vendeur_theme';
+  static const String intro = 'eliyah_vendeur_intro';
+  static const String token = 'eliyah_vendeur_token';
+  static const String type = 'eliyah_vendeur_type';
+  static const String countryCode = 'eliyah_vendeur_country_code';
+  static const String languageCode = 'eliyah_vendeur_language_code';
   static const String cacheCountryCode = 'cache_country_code';
   static const String cacheLanguageCode = 'cache_language_code';
-  static const String cartList = '6am_mart_store_cart_list';
-  static const String userPassword = '6am_mart_store_user_password';
-  static const String userAddress = '6am_mart_store_user_address';
-  static const String userNumber = '6am_mart_store_user_number';
-  static const String userType = '6am_mart_store_user_type';
-  static const String notification = '6am_mart_store_notification';
-  static const String notificationCount = '6am_mart_store_notification_count';
-  static const String searchHistory = '6am_mart_store_search_history';
-  static const String isStoreRegister = '6am_mart_store_registration';
+  static const String cartList = 'eliyah_vendeur_cart_list';
+  static const String userPassword = 'eliyah_vendeur_user_password';
+  static const String userAddress = 'eliyah_vendeur_user_address';
+  static const String userNumber = 'eliyah_vendeur_user_number';
+  static const String userType = 'eliyah_vendeur_user_type';
+  static const String notification = 'eliyah_vendeur_notification';
+  static const String notificationCount = 'eliyah_vendeur_notification_count';
+  static const String searchHistory = 'eliyah_vendeur_search_history';
+  static const String isStoreRegister = 'eliyah_vendeur_registration';
   static const String bluetoothMacAddress = 'bluetooth_mac_address';
-  static const String lowStockStatus = '6am_mart_store_low_stock';
-  static const String moduleType = '6am_mart_store_module_type';
+  static const String lowStockStatus = 'eliyah_vendeur_low_stock';
+  static const String moduleType = 'eliyah_vendeur_module_type';
 
   static const String topic = 'all_zone_store';
   static const String zoneTopic = 'zone_topic';

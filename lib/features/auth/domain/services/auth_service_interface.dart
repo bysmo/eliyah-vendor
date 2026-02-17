@@ -1,9 +1,9 @@
 import 'dart:async';
 import 'package:get/get.dart';
 import 'package:image_picker/image_picker.dart';
-import 'package:sixam_mart_store/api/api_client.dart';
-import 'package:sixam_mart_store/common/models/response_model.dart';
-import 'package:sixam_mart_store/features/business/domain/models/package_model.dart';
+import 'package:eliyah_vendeur/api/api_client.dart';
+import 'package:eliyah_vendeur/common/models/response_model.dart';
+import 'package:eliyah_vendeur/features/business/domain/models/package_model.dart';
 
 abstract class AuthServiceInterface {
   Future<Response> login(String? email, String password, String type);

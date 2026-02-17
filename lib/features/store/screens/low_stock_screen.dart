@@ -1,20 +1,20 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:sixam_mart_store/common/widgets/custom_app_bar_widget.dart';
-import 'package:sixam_mart_store/common/widgets/custom_asset_image_widget.dart';
-import 'package:sixam_mart_store/common/widgets/custom_image_widget.dart';
-import 'package:sixam_mart_store/common/widgets/discount_tag_widget.dart';
-import 'package:sixam_mart_store/common/widgets/not_available_widget.dart';
-import 'package:sixam_mart_store/common/widgets/rating_bar_widget.dart';
-import 'package:sixam_mart_store/features/splash/controllers/splash_controller.dart';
-import 'package:sixam_mart_store/features/store/controllers/store_controller.dart';
-import 'package:sixam_mart_store/features/store/domain/models/item_model.dart';
-import 'package:sixam_mart_store/features/store/widgets/update_stock_bottom_sheet.dart';
-import 'package:sixam_mart_store/helper/date_converter_helper.dart';
-import 'package:sixam_mart_store/helper/price_converter_helper.dart';
-import 'package:sixam_mart_store/util/dimensions.dart';
-import 'package:sixam_mart_store/util/images.dart';
-import 'package:sixam_mart_store/util/styles.dart';
+import 'package:eliyah_vendeur/common/widgets/custom_app_bar_widget.dart';
+import 'package:eliyah_vendeur/common/widgets/custom_asset_image_widget.dart';
+import 'package:eliyah_vendeur/common/widgets/custom_image_widget.dart';
+import 'package:eliyah_vendeur/common/widgets/discount_tag_widget.dart';
+import 'package:eliyah_vendeur/common/widgets/not_available_widget.dart';
+import 'package:eliyah_vendeur/common/widgets/rating_bar_widget.dart';
+import 'package:eliyah_vendeur/features/splash/controllers/splash_controller.dart';
+import 'package:eliyah_vendeur/features/store/controllers/store_controller.dart';
+import 'package:eliyah_vendeur/features/store/domain/models/item_model.dart';
+import 'package:eliyah_vendeur/features/store/widgets/update_stock_bottom_sheet.dart';
+import 'package:eliyah_vendeur/helper/date_converter_helper.dart';
+import 'package:eliyah_vendeur/helper/price_converter_helper.dart';
+import 'package:eliyah_vendeur/util/dimensions.dart';
+import 'package:eliyah_vendeur/util/images.dart';
+import 'package:eliyah_vendeur/util/styles.dart';
 
 class LowStockScreen extends StatefulWidget {
   const LowStockScreen({super.key});

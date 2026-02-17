@@ -1,5 +1,5 @@
-import 'package:sixam_mart_store/api/api_client.dart';
-import 'package:sixam_mart_store/features/rental_module/coupon/domain/repositories/taxi_coupon_repository_interface.dart';
+import 'package:eliyah_vendeur/api/api_client.dart';
+import 'package:eliyah_vendeur/features/rental_module/coupon/domain/repositories/taxi_coupon_repository_interface.dart';
 
 class TaxiCouponRepository implements TaxiCouponRepositoryInterface {
   final ApiClient apiClient;

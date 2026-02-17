@@ -1,15 +1,15 @@
-import 'package:sixam_mart_store/features/deliveryman/controllers/deliveryman_controller.dart';
-import 'package:sixam_mart_store/features/deliveryman/domain/models/delivery_man_model.dart';
-import 'package:sixam_mart_store/helper/price_converter_helper.dart';
-import 'package:sixam_mart_store/util/dimensions.dart';
-import 'package:sixam_mart_store/util/images.dart';
-import 'package:sixam_mart_store/util/styles.dart';
-import 'package:sixam_mart_store/common/widgets/confirmation_dialog_widget.dart';
-import 'package:sixam_mart_store/common/widgets/custom_app_bar_widget.dart';
-import 'package:sixam_mart_store/common/widgets/custom_button_widget.dart';
-import 'package:sixam_mart_store/common/widgets/custom_image_widget.dart';
-import 'package:sixam_mart_store/features/deliveryman/widgets/amount_card_widget.dart';
-import 'package:sixam_mart_store/features/store/widgets/review_widget.dart';
+import 'package:eliyah_vendeur/features/deliveryman/controllers/deliveryman_controller.dart';
+import 'package:eliyah_vendeur/features/deliveryman/domain/models/delivery_man_model.dart';
+import 'package:eliyah_vendeur/helper/price_converter_helper.dart';
+import 'package:eliyah_vendeur/util/dimensions.dart';
+import 'package:eliyah_vendeur/util/images.dart';
+import 'package:eliyah_vendeur/util/styles.dart';
+import 'package:eliyah_vendeur/common/widgets/confirmation_dialog_widget.dart';
+import 'package:eliyah_vendeur/common/widgets/custom_app_bar_widget.dart';
+import 'package:eliyah_vendeur/common/widgets/custom_button_widget.dart';
+import 'package:eliyah_vendeur/common/widgets/custom_image_widget.dart';
+import 'package:eliyah_vendeur/features/deliveryman/widgets/amount_card_widget.dart';
+import 'package:eliyah_vendeur/features/store/widgets/review_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 

@@ -1,9 +1,9 @@
 import 'package:get/get.dart';
-import 'package:sixam_mart_store/api/api_client.dart';
-import 'package:sixam_mart_store/features/reports/domain/models/expense_model.dart';
-import 'package:sixam_mart_store/features/reports/domain/models/tax_report_model.dart';
-import 'package:sixam_mart_store/features/reports/domain/repositories/report_repository_interface.dart';
-import 'package:sixam_mart_store/util/app_constants.dart';
+import 'package:eliyah_vendeur/api/api_client.dart';
+import 'package:eliyah_vendeur/features/reports/domain/models/expense_model.dart';
+import 'package:eliyah_vendeur/features/reports/domain/models/tax_report_model.dart';
+import 'package:eliyah_vendeur/features/reports/domain/repositories/report_repository_interface.dart';
+import 'package:eliyah_vendeur/util/app_constants.dart';
 
 class ReportRepository implements ReportRepositoryInterface {
   final ApiClient apiClient;

@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:sixam_mart_store/features/chat/domain/models/conversation_model.dart';
-import 'package:sixam_mart_store/features/chat/domain/models/message_model.dart';
-import 'package:sixam_mart_store/helper/date_converter_helper.dart';
-import 'package:sixam_mart_store/util/dimensions.dart';
-import 'package:sixam_mart_store/util/styles.dart';
-import 'package:sixam_mart_store/common/widgets/custom_image_widget.dart';
-import 'package:sixam_mart_store/features/chat/widgets/image_dialog_widget.dart';
+import 'package:eliyah_vendeur/features/chat/domain/models/conversation_model.dart';
+import 'package:eliyah_vendeur/features/chat/domain/models/message_model.dart';
+import 'package:eliyah_vendeur/helper/date_converter_helper.dart';
+import 'package:eliyah_vendeur/util/dimensions.dart';
+import 'package:eliyah_vendeur/util/styles.dart';
+import 'package:eliyah_vendeur/common/widgets/custom_image_widget.dart';
+import 'package:eliyah_vendeur/features/chat/widgets/image_dialog_widget.dart';
 
 class MessageBubbleWidget extends StatelessWidget {
   final Message message;

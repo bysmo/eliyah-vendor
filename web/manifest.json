@@ -1,11 +1,11 @@
 {
-    "name": "6amMart Vendor",
-    "short_name": "6amMart Vendor",
+    "name": "Eliyah-Express Vendeur",
+    "short_name": "Eliyah Vendeur",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "A multi-vendor multiple e-commerce web app.",
+    "description": "Application Eliyah-Express pour les vendeurs - gestion de stock, commandes et personnel.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [

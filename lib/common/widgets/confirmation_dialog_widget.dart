@@ -1,12 +1,12 @@
-import 'package:sixam_mart_store/common/widgets/custom_button_widget.dart';
-import 'package:sixam_mart_store/features/auth/controllers/auth_controller.dart';
-import 'package:sixam_mart_store/features/banner/controllers/banner_controller.dart';
-import 'package:sixam_mart_store/features/campaign/controllers/campaign_controller.dart';
-import 'package:sixam_mart_store/features/deliveryman/controllers/deliveryman_controller.dart';
-import 'package:sixam_mart_store/features/order/controllers/order_controller.dart';
-import 'package:sixam_mart_store/features/store/controllers/store_controller.dart';
-import 'package:sixam_mart_store/util/dimensions.dart';
-import 'package:sixam_mart_store/util/styles.dart';
+import 'package:eliyah_vendeur/common/widgets/custom_button_widget.dart';
+import 'package:eliyah_vendeur/features/auth/controllers/auth_controller.dart';
+import 'package:eliyah_vendeur/features/banner/controllers/banner_controller.dart';
+import 'package:eliyah_vendeur/features/campaign/controllers/campaign_controller.dart';
+import 'package:eliyah_vendeur/features/deliveryman/controllers/deliveryman_controller.dart';
+import 'package:eliyah_vendeur/features/order/controllers/order_controller.dart';
+import 'package:eliyah_vendeur/features/store/controllers/store_controller.dart';
+import 'package:eliyah_vendeur/util/dimensions.dart';
+import 'package:eliyah_vendeur/util/styles.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 

@@ -1,6 +1,6 @@
-import 'package:sixam_mart_store/features/campaign/domain/models/campaign_model.dart';
-import 'package:sixam_mart_store/features/campaign/domain/repositories/campaign_repository_interface.dart';
-import 'package:sixam_mart_store/features/campaign/domain/services/campaign_service_interface.dart';
+import 'package:eliyah_vendeur/features/campaign/domain/models/campaign_model.dart';
+import 'package:eliyah_vendeur/features/campaign/domain/repositories/campaign_repository_interface.dart';
+import 'package:eliyah_vendeur/features/campaign/domain/services/campaign_service_interface.dart';
 
 class CampaignService implements CampaignServiceInterface {
   final CampaignRepositoryInterface campaignRepositoryInterface;
