@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:eliyah_vendeur/util/styles.dart';
+import 'package:eliyah_store/util/styles.dart';
 
 class PriceWidget extends StatelessWidget {
   final String title;

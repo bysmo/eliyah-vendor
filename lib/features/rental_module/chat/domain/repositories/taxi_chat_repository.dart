@@ -1,6 +1,6 @@
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:eliyah_vendeur/api/api_client.dart';
-import 'package:eliyah_vendeur/features/rental_module/chat/domain/repositories/taxi_chat_repository_interface.dart';
+import 'package:eliyah_store/api/api_client.dart';
+import 'package:eliyah_store/features/rental_module/chat/domain/repositories/taxi_chat_repository_interface.dart';
 
 class TaxiChatRepository implements TaxiChatRepositoryInterface {
   final ApiClient apiClient;

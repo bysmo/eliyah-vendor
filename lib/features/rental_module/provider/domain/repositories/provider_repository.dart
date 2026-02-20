@@ -1,5 +1,5 @@
-import 'package:eliyah_vendeur/api/api_client.dart';
-import 'package:eliyah_vendeur/features/rental_module/provider/domain/repositories/provider_repository_interface.dart';
+import 'package:eliyah_store/api/api_client.dart';
+import 'package:eliyah_store/features/rental_module/provider/domain/repositories/provider_repository_interface.dart';
 
 class ProviderRepository implements ProviderRepositoryInterface {
   final ApiClient apiClient;

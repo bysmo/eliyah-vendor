@@ -1,14 +1,14 @@
 import 'package:get/get.dart';
 import 'package:image_picker/image_picker.dart';
-import 'package:eliyah_vendeur/api/api_client.dart';
-import 'package:eliyah_vendeur/common/models/response_model.dart';
-import 'package:eliyah_vendeur/features/auth/domain/repositories/auth_repository_interface.dart';
-import 'package:eliyah_vendeur/features/auth/domain/services/auth_service_interface.dart';
-import 'package:eliyah_vendeur/features/business/domain/models/package_model.dart';
-import 'package:eliyah_vendeur/features/business/screens/subscription_payment_screen.dart';
-import 'package:eliyah_vendeur/features/profile/controllers/profile_controller.dart';
-import 'package:eliyah_vendeur/features/rental_module/profile/controllers/taxi_profile_controller.dart';
-import 'package:eliyah_vendeur/helper/route_helper.dart';
+import 'package:eliyah_store/api/api_client.dart';
+import 'package:eliyah_store/common/models/response_model.dart';
+import 'package:eliyah_store/features/auth/domain/repositories/auth_repository_interface.dart';
+import 'package:eliyah_store/features/auth/domain/services/auth_service_interface.dart';
+import 'package:eliyah_store/features/business/domain/models/package_model.dart';
+import 'package:eliyah_store/features/business/screens/subscription_payment_screen.dart';
+import 'package:eliyah_store/features/profile/controllers/profile_controller.dart';
+import 'package:eliyah_store/features/rental_module/profile/controllers/taxi_profile_controller.dart';
+import 'package:eliyah_store/helper/route_helper.dart';
 
 class AuthService implements AuthServiceInterface {
   final AuthRepositoryInterface authRepositoryInterface;

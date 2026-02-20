@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:eliyah_vendeur/common/widgets/custom_app_bar_widget.dart';
-import 'package:eliyah_vendeur/common/widgets/custom_asset_image_widget.dart';
-import 'package:eliyah_vendeur/common/widgets/custom_card.dart';
-import 'package:eliyah_vendeur/features/reports/controllers/report_controller.dart';
-import 'package:eliyah_vendeur/helper/date_converter_helper.dart';
-import 'package:eliyah_vendeur/helper/price_converter_helper.dart';
-import 'package:eliyah_vendeur/util/dimensions.dart';
-import 'package:eliyah_vendeur/util/images.dart';
-import 'package:eliyah_vendeur/util/styles.dart';
+import 'package:eliyah_store/common/widgets/custom_app_bar_widget.dart';
+import 'package:eliyah_store/common/widgets/custom_asset_image_widget.dart';
+import 'package:eliyah_store/common/widgets/custom_card.dart';
+import 'package:eliyah_store/features/reports/controllers/report_controller.dart';
+import 'package:eliyah_store/helper/date_converter_helper.dart';
+import 'package:eliyah_store/helper/price_converter_helper.dart';
+import 'package:eliyah_store/util/dimensions.dart';
+import 'package:eliyah_store/util/images.dart';
+import 'package:eliyah_store/util/styles.dart';
 
 class TaxReportScreen extends StatefulWidget {
   const TaxReportScreen({super.key});

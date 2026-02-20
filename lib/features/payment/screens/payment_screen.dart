@@ -3,11 +3,11 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_inappwebview/flutter_inappwebview.dart';
 import 'package:get/get.dart';
-import 'package:eliyah_vendeur/features/profile/controllers/profile_controller.dart';
-import 'package:eliyah_vendeur/helper/route_helper.dart';
-import 'package:eliyah_vendeur/util/app_constants.dart';
-import 'package:eliyah_vendeur/common/widgets/custom_app_bar_widget.dart';
-import 'package:eliyah_vendeur/features/payment/widgets/fund_payment_dialog_widget.dart';
+import 'package:eliyah_store/features/profile/controllers/profile_controller.dart';
+import 'package:eliyah_store/helper/route_helper.dart';
+import 'package:eliyah_store/util/app_constants.dart';
+import 'package:eliyah_store/common/widgets/custom_app_bar_widget.dart';
+import 'package:eliyah_store/features/payment/widgets/fund_payment_dialog_widget.dart';
 
 class PaymentScreen extends StatefulWidget {
   final String paymentMethod;

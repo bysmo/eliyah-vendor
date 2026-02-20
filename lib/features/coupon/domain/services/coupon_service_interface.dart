@@ -1,5 +1,5 @@
-import 'package:eliyah_vendeur/common/models/response_model.dart';
-import 'package:eliyah_vendeur/features/coupon/domain/models/coupon_body_model.dart';
+import 'package:eliyah_store/common/models/response_model.dart';
+import 'package:eliyah_store/features/coupon/domain/models/coupon_body_model.dart';
 
 abstract class CouponServiceInterface {
   Future<ResponseModel> addCoupon(Map<String, String?> data);

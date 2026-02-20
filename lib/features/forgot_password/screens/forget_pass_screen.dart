@@ -1,12 +1,12 @@
-import 'package:eliyah_vendeur/features/forgot_password/controllers/forgot_password_controller.dart';
-import 'package:eliyah_vendeur/helper/route_helper.dart';
-import 'package:eliyah_vendeur/util/dimensions.dart';
-import 'package:eliyah_vendeur/util/images.dart';
-import 'package:eliyah_vendeur/util/styles.dart';
-import 'package:eliyah_vendeur/common/widgets/custom_app_bar_widget.dart';
-import 'package:eliyah_vendeur/common/widgets/custom_button_widget.dart';
-import 'package:eliyah_vendeur/common/widgets/custom_snackbar_widget.dart';
-import 'package:eliyah_vendeur/common/widgets/custom_text_field_widget.dart';
+import 'package:eliyah_store/features/forgot_password/controllers/forgot_password_controller.dart';
+import 'package:eliyah_store/helper/route_helper.dart';
+import 'package:eliyah_store/util/dimensions.dart';
+import 'package:eliyah_store/util/images.dart';
+import 'package:eliyah_store/util/styles.dart';
+import 'package:eliyah_store/common/widgets/custom_app_bar_widget.dart';
+import 'package:eliyah_store/common/widgets/custom_button_widget.dart';
+import 'package:eliyah_store/common/widgets/custom_snackbar_widget.dart';
+import 'package:eliyah_store/common/widgets/custom_text_field_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 

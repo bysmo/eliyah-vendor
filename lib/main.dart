@@ -1,17 +1,18 @@
 import 'dart:async';
+import 'dart:io';
 import 'package:flutter/services.dart';
-import 'package:eliyah_vendeur/features/home/widgets/trial_widget.dart';
-import 'package:eliyah_vendeur/features/language/controllers/language_controller.dart';
-import 'package:eliyah_vendeur/common/controllers/theme_controller.dart';
-import 'package:eliyah_vendeur/features/notification/domain/models/notification_body_model.dart';
-import 'package:eliyah_vendeur/features/profile/controllers/profile_controller.dart';
-import 'package:eliyah_vendeur/helper/date_converter_helper.dart';
-import 'package:eliyah_vendeur/helper/notification_helper.dart';
-import 'package:eliyah_vendeur/helper/route_helper.dart';
-import 'package:eliyah_vendeur/theme/dark_theme.dart';
-import 'package:eliyah_vendeur/theme/light_theme.dart';
-import 'package:eliyah_vendeur/util/app_constants.dart';
-import 'package:eliyah_vendeur/util/messages.dart';
+import 'package:eliyah_store/features/home/widgets/trial_widget.dart';
+import 'package:eliyah_store/features/language/controllers/language_controller.dart';
+import 'package:eliyah_store/common/controllers/theme_controller.dart';
+import 'package:eliyah_store/features/notification/domain/models/notification_body_model.dart';
+import 'package:eliyah_store/features/profile/controllers/profile_controller.dart';
+import 'package:eliyah_store/helper/date_converter_helper.dart';
+import 'package:eliyah_store/helper/notification_helper.dart';
+import 'package:eliyah_store/helper/route_helper.dart';
+import 'package:eliyah_store/theme/dark_theme.dart';
+import 'package:eliyah_store/theme/light_theme.dart';
+import 'package:eliyah_store/util/app_constants.dart';
+import 'package:eliyah_store/util/messages.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:firebase_messaging/firebase_messaging.dart';
 import 'package:flutter/material.dart';
@@ -21,11 +22,22 @@ import 'helper/get_di.dart' as di;
 
 final FlutterLocalNotificationsPlugin flutterLocalNotificationsPlugin = FlutterLocalNotificationsPlugin();
 
+class MyHttpOverrides extends HttpOverrides {
+  @override
+  HttpClient createHttpClient(SecurityContext? context) {
+    return super.createHttpClient(context)
+      ..badCertificateCallback = (X509Certificate cert, String host, int port) => true;
+  }
+}
+
 Future<void> main() async {
+  HttpOverrides.global = MyHttpOverrides();
   WidgetsFlutterBinding.ensureInitialized();
   Map<String, Map<String, String>> languages = await di.init();
 
   // Initialize Firebase (uses google-services.json on Android and GoogleService-Info.plist on iOS)
+  // On Android, if google-services.json is present, it will use that.
+  // We use the default initialization as the user has already configured the files.
   await Firebase.initializeApp();
 
   NotificationBodyModel? body;

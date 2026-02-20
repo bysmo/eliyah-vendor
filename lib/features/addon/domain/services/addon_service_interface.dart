@@ -1,5 +1,5 @@
-import 'package:eliyah_vendeur/features/addon/models/addon_category_model.dart';
-import 'package:eliyah_vendeur/features/store/domain/models/item_model.dart';
+import 'package:eliyah_store/features/addon/models/addon_category_model.dart';
+import 'package:eliyah_store/features/store/domain/models/item_model.dart';
 
 abstract class AddonServiceInterface {
   Future<List<AddOns>?> getAddonList();

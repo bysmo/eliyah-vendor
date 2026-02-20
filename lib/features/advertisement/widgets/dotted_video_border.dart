@@ -1,7 +1,7 @@
 import 'package:dotted_border/dotted_border.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:eliyah_vendeur/util/styles.dart';
+import 'package:eliyah_store/util/styles.dart';
 
 class DottedVideoBorder extends StatelessWidget {
   final Function() onTap;

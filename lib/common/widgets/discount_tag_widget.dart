@@ -1,7 +1,7 @@
-import 'package:eliyah_vendeur/features/splash/controllers/splash_controller.dart';
-import 'package:eliyah_vendeur/helper/responsive_helper.dart';
-import 'package:eliyah_vendeur/util/dimensions.dart';
-import 'package:eliyah_vendeur/util/styles.dart';
+import 'package:eliyah_store/features/splash/controllers/splash_controller.dart';
+import 'package:eliyah_store/helper/responsive_helper.dart';
+import 'package:eliyah_store/util/dimensions.dart';
+import 'package:eliyah_store/util/styles.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 

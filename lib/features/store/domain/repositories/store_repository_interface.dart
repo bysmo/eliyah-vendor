@@ -1,12 +1,12 @@
 import 'package:get/get_connect/http/src/response/response.dart';
 import 'package:image_picker/image_picker.dart';
-import 'package:eliyah_vendeur/common/models/vat_tax_model.dart';
-import 'package:eliyah_vendeur/features/profile/domain/models/profile_model.dart';
-import 'package:eliyah_vendeur/features/store/domain/models/band_model.dart';
-import 'package:eliyah_vendeur/features/store/domain/models/review_model.dart';
-import 'package:eliyah_vendeur/features/store/domain/models/suitable_tag_model.dart';
-import 'package:eliyah_vendeur/interface/repository_interface.dart';
-import 'package:eliyah_vendeur/features/store/domain/models/item_model.dart';
+import 'package:eliyah_store/common/models/vat_tax_model.dart';
+import 'package:eliyah_store/features/profile/domain/models/profile_model.dart';
+import 'package:eliyah_store/features/store/domain/models/band_model.dart';
+import 'package:eliyah_store/features/store/domain/models/review_model.dart';
+import 'package:eliyah_store/features/store/domain/models/suitable_tag_model.dart';
+import 'package:eliyah_store/interface/repository_interface.dart';
+import 'package:eliyah_store/features/store/domain/models/item_model.dart';
 
 abstract class StoreRepositoryInterface<T> extends RepositoryInterface<Schedules> {
   Future<ItemModel?> getItemList({required String offset, required String type, required String search, int? categoryId});

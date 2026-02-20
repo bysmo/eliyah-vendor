@@ -1,8 +1,8 @@
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:eliyah_vendeur/api/api_client.dart';
-import 'package:eliyah_vendeur/util/app_constants.dart';
+import 'package:eliyah_store/api/api_client.dart';
+import 'package:eliyah_store/util/app_constants.dart';
 import 'package:get/get.dart';
-import 'package:eliyah_vendeur/features/splash/domain/repositories/splash_repository_interface.dart';
+import 'package:eliyah_store/features/splash/domain/repositories/splash_repository_interface.dart';
 
 class SplashRepository implements SplashRepositoryInterface {
   final ApiClient apiClient;

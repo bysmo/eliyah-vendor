@@ -1,5 +1,5 @@
-import 'package:eliyah_vendeur/features/rental_module/provider/domain/repositories/provider_repository_interface.dart';
-import 'package:eliyah_vendeur/features/rental_module/provider/domain/services/provider_service_interface.dart';
+import 'package:eliyah_store/features/rental_module/provider/domain/repositories/provider_repository_interface.dart';
+import 'package:eliyah_store/features/rental_module/provider/domain/services/provider_service_interface.dart';
 
 class ProviderService implements ProviderServiceInterface {
   final ProviderRepositoryInterface providerRepositoryInterface;

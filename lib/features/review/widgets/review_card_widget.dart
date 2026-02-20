@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:eliyah_vendeur/common/widgets/custom_button_widget.dart';
-import 'package:eliyah_vendeur/common/widgets/custom_image_widget.dart';
-import 'package:eliyah_vendeur/features/splash/controllers/splash_controller.dart';
-import 'package:eliyah_vendeur/features/store/domain/models/review_model.dart';
-import 'package:eliyah_vendeur/helper/date_converter_helper.dart';
-import 'package:eliyah_vendeur/helper/route_helper.dart';
-import 'package:eliyah_vendeur/util/dimensions.dart';
-import 'package:eliyah_vendeur/util/images.dart';
-import 'package:eliyah_vendeur/util/styles.dart';
+import 'package:eliyah_store/common/widgets/custom_button_widget.dart';
+import 'package:eliyah_store/common/widgets/custom_image_widget.dart';
+import 'package:eliyah_store/features/splash/controllers/splash_controller.dart';
+import 'package:eliyah_store/features/store/domain/models/review_model.dart';
+import 'package:eliyah_store/helper/date_converter_helper.dart';
+import 'package:eliyah_store/helper/route_helper.dart';
+import 'package:eliyah_store/util/dimensions.dart';
+import 'package:eliyah_store/util/images.dart';
+import 'package:eliyah_store/util/styles.dart';
 
 class ReviewCardWidget extends StatelessWidget {
   final ReviewModel review;

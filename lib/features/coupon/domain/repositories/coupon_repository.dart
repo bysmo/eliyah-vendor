@@ -1,10 +1,10 @@
 import 'package:get/get.dart';
-import 'package:eliyah_vendeur/api/api_client.dart';
-import 'package:eliyah_vendeur/common/models/response_model.dart';
-import 'package:eliyah_vendeur/common/widgets/custom_snackbar_widget.dart';
-import 'package:eliyah_vendeur/features/coupon/domain/models/coupon_body_model.dart';
-import 'package:eliyah_vendeur/features/coupon/domain/repositories/coupon_repository_interface.dart';
-import 'package:eliyah_vendeur/util/app_constants.dart';
+import 'package:eliyah_store/api/api_client.dart';
+import 'package:eliyah_store/common/models/response_model.dart';
+import 'package:eliyah_store/common/widgets/custom_snackbar_widget.dart';
+import 'package:eliyah_store/features/coupon/domain/models/coupon_body_model.dart';
+import 'package:eliyah_store/features/coupon/domain/repositories/coupon_repository_interface.dart';
+import 'package:eliyah_store/util/app_constants.dart';
 
 class CouponRepository implements CouponRepositoryInterface {
   final ApiClient apiClient;

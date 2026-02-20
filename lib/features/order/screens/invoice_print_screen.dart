@@ -5,15 +5,15 @@ import 'package:flutter_esc_pos_utils/flutter_esc_pos_utils.dart';
 import 'package:get/get.dart';
 import 'package:print_bluetooth_thermal/print_bluetooth_thermal.dart';
 import 'package:screenshot/screenshot.dart';
-import 'package:eliyah_vendeur/common/widgets/custom_button_widget.dart';
-import 'package:eliyah_vendeur/common/widgets/custom_snackbar_widget.dart';
-import 'package:eliyah_vendeur/features/language/controllers/language_controller.dart';
-import 'package:eliyah_vendeur/features/order/controllers/order_controller.dart';
-import 'package:eliyah_vendeur/features/order/widgets/invoice_dialog_widget.dart';
-import 'package:eliyah_vendeur/features/order/domain/models/order_details_model.dart';
-import 'package:eliyah_vendeur/features/order/domain/models/order_model.dart';
-import 'package:eliyah_vendeur/util/dimensions.dart';
-import 'package:eliyah_vendeur/util/styles.dart';
+import 'package:eliyah_store/common/widgets/custom_button_widget.dart';
+import 'package:eliyah_store/common/widgets/custom_snackbar_widget.dart';
+import 'package:eliyah_store/features/language/controllers/language_controller.dart';
+import 'package:eliyah_store/features/order/controllers/order_controller.dart';
+import 'package:eliyah_store/features/order/widgets/invoice_dialog_widget.dart';
+import 'package:eliyah_store/features/order/domain/models/order_details_model.dart';
+import 'package:eliyah_store/features/order/domain/models/order_model.dart';
+import 'package:eliyah_store/util/dimensions.dart';
+import 'package:eliyah_store/util/styles.dart';
 import 'package:image/image.dart' as img;
 
 class InVoicePrintScreen extends StatefulWidget {

@@ -1,16 +1,16 @@
 import 'package:get/get.dart';
 import 'package:image_picker/image_picker.dart';
-import 'package:eliyah_vendeur/common/models/vat_tax_model.dart';
-import 'package:eliyah_vendeur/features/store/domain/models/attribute_model.dart';
-import 'package:eliyah_vendeur/features/store/domain/models/band_model.dart';
-import 'package:eliyah_vendeur/features/store/domain/models/item_model.dart';
-import 'package:eliyah_vendeur/features/profile/domain/models/profile_model.dart';
-import 'package:eliyah_vendeur/features/store/domain/models/pending_item_model.dart';
-import 'package:eliyah_vendeur/features/store/domain/models/review_model.dart';
-import 'package:eliyah_vendeur/features/store/domain/models/suitable_tag_model.dart';
-import 'package:eliyah_vendeur/features/store/domain/models/unit_model.dart';
-import 'package:eliyah_vendeur/features/store/domain/models/variant_type_model.dart';
-import 'package:eliyah_vendeur/features/store/domain/models/variation_body_model.dart';
+import 'package:eliyah_store/common/models/vat_tax_model.dart';
+import 'package:eliyah_store/features/store/domain/models/attribute_model.dart';
+import 'package:eliyah_store/features/store/domain/models/band_model.dart';
+import 'package:eliyah_store/features/store/domain/models/item_model.dart';
+import 'package:eliyah_store/features/profile/domain/models/profile_model.dart';
+import 'package:eliyah_store/features/store/domain/models/pending_item_model.dart';
+import 'package:eliyah_store/features/store/domain/models/review_model.dart';
+import 'package:eliyah_store/features/store/domain/models/suitable_tag_model.dart';
+import 'package:eliyah_store/features/store/domain/models/unit_model.dart';
+import 'package:eliyah_store/features/store/domain/models/variant_type_model.dart';
+import 'package:eliyah_store/features/store/domain/models/variation_body_model.dart';
 
 abstract class StoreServiceInterface {
   Future<ItemModel?> getItemList({required String offset, required String type, required String search, int? categoryId});

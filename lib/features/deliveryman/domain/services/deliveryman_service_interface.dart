@@ -1,6 +1,6 @@
 import 'package:image_picker/image_picker.dart';
-import 'package:eliyah_vendeur/features/deliveryman/domain/models/delivery_man_model.dart';
-import 'package:eliyah_vendeur/features/store/domain/models/review_model.dart';
+import 'package:eliyah_store/features/deliveryman/domain/models/delivery_man_model.dart';
+import 'package:eliyah_store/features/store/domain/models/review_model.dart';
 
 abstract class DeliverymanServiceInterface {
   Future<List<DeliveryManModel>?> getDeliveryManList();

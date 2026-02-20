@@ -1,18 +1,18 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:screenshot/screenshot.dart';
-import 'package:eliyah_vendeur/common/widgets/dotted_divider.dart';
-import 'package:eliyah_vendeur/features/language/controllers/language_controller.dart';
-import 'package:eliyah_vendeur/features/order/widgets/price_widget.dart';
-import 'package:eliyah_vendeur/features/profile/controllers/profile_controller.dart';
-import 'package:eliyah_vendeur/features/splash/controllers/splash_controller.dart';
-import 'package:eliyah_vendeur/features/store/domain/models/item_model.dart';
-import 'package:eliyah_vendeur/features/order/domain/models/order_details_model.dart';
-import 'package:eliyah_vendeur/features/order/domain/models/order_model.dart';
-import 'package:eliyah_vendeur/features/profile/domain/models/profile_model.dart';
-import 'package:eliyah_vendeur/helper/date_converter_helper.dart';
-import 'package:eliyah_vendeur/util/dimensions.dart';
-import 'package:eliyah_vendeur/util/styles.dart';
+import 'package:eliyah_store/common/widgets/dotted_divider.dart';
+import 'package:eliyah_store/features/language/controllers/language_controller.dart';
+import 'package:eliyah_store/features/order/widgets/price_widget.dart';
+import 'package:eliyah_store/features/profile/controllers/profile_controller.dart';
+import 'package:eliyah_store/features/splash/controllers/splash_controller.dart';
+import 'package:eliyah_store/features/store/domain/models/item_model.dart';
+import 'package:eliyah_store/features/order/domain/models/order_details_model.dart';
+import 'package:eliyah_store/features/order/domain/models/order_model.dart';
+import 'package:eliyah_store/features/profile/domain/models/profile_model.dart';
+import 'package:eliyah_store/helper/date_converter_helper.dart';
+import 'package:eliyah_store/util/dimensions.dart';
+import 'package:eliyah_store/util/styles.dart';
 
 class InvoiceDialogWidget extends StatelessWidget {
   final OrderModel? order;

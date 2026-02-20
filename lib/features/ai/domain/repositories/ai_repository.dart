@@ -1,13 +1,13 @@
 import 'package:get/get.dart';
 import 'package:image_picker/image_picker.dart';
-import 'package:eliyah_vendeur/api/api_client.dart';
-import 'package:eliyah_vendeur/features/ai/domain/models/attribute_data_model.dart';
-import 'package:eliyah_vendeur/features/ai/domain/repositories/ai_repository_interface.dart';
-import 'package:eliyah_vendeur/util/app_constants.dart';
-import 'package:eliyah_vendeur/features/ai/domain/models/other_data_model.dart';
-import 'package:eliyah_vendeur/features/ai/domain/models/title_des_model.dart';
-import 'package:eliyah_vendeur/features/ai/domain/models/title_suggestion_model.dart';
-import 'package:eliyah_vendeur/features/ai/domain/models/variation_data_model.dart';
+import 'package:eliyah_store/api/api_client.dart';
+import 'package:eliyah_store/features/ai/domain/models/attribute_data_model.dart';
+import 'package:eliyah_store/features/ai/domain/repositories/ai_repository_interface.dart';
+import 'package:eliyah_store/util/app_constants.dart';
+import 'package:eliyah_store/features/ai/domain/models/other_data_model.dart';
+import 'package:eliyah_store/features/ai/domain/models/title_des_model.dart';
+import 'package:eliyah_store/features/ai/domain/models/title_suggestion_model.dart';
+import 'package:eliyah_store/features/ai/domain/models/variation_data_model.dart';
 
 class AiRepository implements AiRepositoryInterface {
   final ApiClient apiClient;

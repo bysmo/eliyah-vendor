@@ -1,8 +1,8 @@
-import 'package:eliyah_vendeur/features/language/controllers/language_controller.dart';
-import 'package:eliyah_vendeur/features/language/domain/models/language_model.dart';
-import 'package:eliyah_vendeur/util/app_constants.dart';
-import 'package:eliyah_vendeur/util/dimensions.dart';
-import 'package:eliyah_vendeur/util/styles.dart';
+import 'package:eliyah_store/features/language/controllers/language_controller.dart';
+import 'package:eliyah_store/features/language/domain/models/language_model.dart';
+import 'package:eliyah_store/util/app_constants.dart';
+import 'package:eliyah_store/util/dimensions.dart';
+import 'package:eliyah_store/util/styles.dart';
 import 'package:flutter/material.dart';
 
 class LanguageCardWidget extends StatelessWidget {

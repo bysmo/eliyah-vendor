@@ -1,8 +1,8 @@
-import 'package:eliyah_vendeur/features/banner/domain/models/store_banner_list_model.dart';
-import 'package:eliyah_vendeur/common/widgets/custom_snackbar_widget.dart';
+import 'package:eliyah_store/features/banner/domain/models/store_banner_list_model.dart';
+import 'package:eliyah_store/common/widgets/custom_snackbar_widget.dart';
 import 'package:get/get.dart';
 import 'package:image_picker/image_picker.dart';
-import 'package:eliyah_vendeur/features/banner/domain/services/banner_service_interface.dart';
+import 'package:eliyah_store/features/banner/domain/services/banner_service_interface.dart';
 
 class BannerController extends GetxController implements GetxService {
   final BannerServiceInterface bannerServiceInterface;

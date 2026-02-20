@@ -1,7 +1,7 @@
-import 'package:eliyah_vendeur/features/disbursement/domain/repositories/disbursement_repository_interface.dart';
-import 'package:eliyah_vendeur/features/disbursement/domain/services/disbursement_service_interface.dart';
-import 'package:eliyah_vendeur/features/disbursement/domain/models/disbursement_method_model.dart' as disburse;
-import 'package:eliyah_vendeur/features/disbursement/domain/models/disbursement_report_model.dart' as report;
+import 'package:eliyah_store/features/disbursement/domain/repositories/disbursement_repository_interface.dart';
+import 'package:eliyah_store/features/disbursement/domain/services/disbursement_service_interface.dart';
+import 'package:eliyah_store/features/disbursement/domain/models/disbursement_method_model.dart' as disburse;
+import 'package:eliyah_store/features/disbursement/domain/models/disbursement_report_model.dart' as report;
 
 class DisbursementService implements DisbursementServiceInterface {
   final DisbursementRepositoryInterface disbursementRepositoryInterface;

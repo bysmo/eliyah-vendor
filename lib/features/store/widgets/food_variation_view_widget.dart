@@ -1,10 +1,10 @@
 import 'package:flutter/cupertino.dart';
-import 'package:eliyah_vendeur/common/widgets/label_widget.dart';
-import 'package:eliyah_vendeur/features/store/controllers/store_controller.dart';
-import 'package:eliyah_vendeur/features/store/domain/models/item_model.dart';
-import 'package:eliyah_vendeur/util/dimensions.dart';
-import 'package:eliyah_vendeur/util/styles.dart';
-import 'package:eliyah_vendeur/common/widgets/custom_text_field_widget.dart';
+import 'package:eliyah_store/common/widgets/label_widget.dart';
+import 'package:eliyah_store/features/store/controllers/store_controller.dart';
+import 'package:eliyah_store/features/store/domain/models/item_model.dart';
+import 'package:eliyah_store/util/dimensions.dart';
+import 'package:eliyah_store/util/styles.dart';
+import 'package:eliyah_store/common/widgets/custom_text_field_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 

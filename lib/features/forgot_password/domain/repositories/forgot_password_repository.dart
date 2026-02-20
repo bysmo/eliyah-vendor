@@ -1,11 +1,11 @@
 import 'dart:async';
-import 'package:eliyah_vendeur/api/api_client.dart';
-import 'package:eliyah_vendeur/common/models/response_model.dart';
-import 'package:eliyah_vendeur/features/profile/domain/models/profile_model.dart';
-import 'package:eliyah_vendeur/util/app_constants.dart';
+import 'package:eliyah_store/api/api_client.dart';
+import 'package:eliyah_store/common/models/response_model.dart';
+import 'package:eliyah_store/features/profile/domain/models/profile_model.dart';
+import 'package:eliyah_store/util/app_constants.dart';
 import 'package:get/get.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:eliyah_vendeur/features/forgot_password/domain/repositories/forgot_password_repository_interface.dart';
+import 'package:eliyah_store/features/forgot_password/domain/repositories/forgot_password_repository_interface.dart';
 
 class ForgotPasswordRepository implements ForgotPasswordRepositoryInterface {
   final ApiClient apiClient;

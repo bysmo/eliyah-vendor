@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:eliyah_vendeur/features/payment/controllers/payment_controller.dart';
-import 'package:eliyah_vendeur/features/profile/controllers/profile_controller.dart';
-import 'package:eliyah_vendeur/features/splash/controllers/splash_controller.dart';
-import 'package:eliyah_vendeur/util/dimensions.dart';
-import 'package:eliyah_vendeur/util/styles.dart';
-import 'package:eliyah_vendeur/common/widgets/custom_button_widget.dart';
-import 'package:eliyah_vendeur/common/widgets/custom_image_widget.dart';
+import 'package:eliyah_store/features/payment/controllers/payment_controller.dart';
+import 'package:eliyah_store/features/profile/controllers/profile_controller.dart';
+import 'package:eliyah_store/features/splash/controllers/splash_controller.dart';
+import 'package:eliyah_store/util/dimensions.dart';
+import 'package:eliyah_store/util/styles.dart';
+import 'package:eliyah_store/common/widgets/custom_button_widget.dart';
+import 'package:eliyah_store/common/widgets/custom_image_widget.dart';
 
 class PaymentMethodBottomSheetWidget extends StatefulWidget {
   final bool isWalletPayment;

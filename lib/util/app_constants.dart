@@ -1,8 +1,8 @@
-import 'package:eliyah_vendeur/features/language/domain/models/language_model.dart';
-import 'package:eliyah_vendeur/util/images.dart';
+import 'package:eliyah_store/features/language/domain/models/language_model.dart';
+import 'package:eliyah_store/util/images.dart';
 
 class AppConstants {
-  static const String appName = 'Eliyah-Express Vendeur';
+  static const String appName = 'Eliyah Store';
   static const double appVersion = 3.6; ///Flutter SDK: 3.38.5
 
   static const String fontFamily = 'Roboto';
@@ -213,26 +213,26 @@ class AppConstants {
   static const String taxiTaxReportUri = '/api/v1/rental/vendor/get-tax-report';
 
   /// Shared Key
-  static const String theme = 'eliyah_vendeur_theme';
-  static const String intro = 'eliyah_vendeur_intro';
-  static const String token = 'eliyah_vendeur_token';
-  static const String type = 'eliyah_vendeur_type';
-  static const String countryCode = 'eliyah_vendeur_country_code';
-  static const String languageCode = 'eliyah_vendeur_language_code';
+  static const String theme = 'eliyah_store_theme';
+  static const String intro = 'eliyah_store_intro';
+  static const String token = 'eliyah_store_token';
+  static const String type = 'eliyah_store_type';
+  static const String countryCode = 'eliyah_store_country_code';
+  static const String languageCode = 'eliyah_store_language_code';
   static const String cacheCountryCode = 'cache_country_code';
   static const String cacheLanguageCode = 'cache_language_code';
-  static const String cartList = 'eliyah_vendeur_cart_list';
-  static const String userPassword = 'eliyah_vendeur_user_password';
-  static const String userAddress = 'eliyah_vendeur_user_address';
-  static const String userNumber = 'eliyah_vendeur_user_number';
-  static const String userType = 'eliyah_vendeur_user_type';
-  static const String notification = 'eliyah_vendeur_notification';
-  static const String notificationCount = 'eliyah_vendeur_notification_count';
-  static const String searchHistory = 'eliyah_vendeur_search_history';
-  static const String isStoreRegister = 'eliyah_vendeur_registration';
+  static const String cartList = 'eliyah_store_cart_list';
+  static const String userPassword = 'eliyah_store_user_password';
+  static const String userAddress = 'eliyah_store_user_address';
+  static const String userNumber = 'eliyah_store_user_number';
+  static const String userType = 'eliyah_store_user_type';
+  static const String notification = 'eliyah_store_notification';
+  static const String notificationCount = 'eliyah_store_notification_count';
+  static const String searchHistory = 'eliyah_store_search_history';
+  static const String isStoreRegister = 'eliyah_store_registration';
   static const String bluetoothMacAddress = 'bluetooth_mac_address';
-  static const String lowStockStatus = 'eliyah_vendeur_low_stock';
-  static const String moduleType = 'eliyah_vendeur_module_type';
+  static const String lowStockStatus = 'eliyah_store_low_stock';
+  static const String moduleType = 'eliyah_store_module_type';
 
   static const String topic = 'all_zone_store';
   static const String zoneTopic = 'zone_topic';
@@ -261,9 +261,7 @@ class AppConstants {
   static const String food = 'food';
 
   static List<LanguageModel> languages = [
+    LanguageModel(imageUrl: Images.french, languageName: 'Français', countryCode: 'FR', languageCode: 'fr'),
     LanguageModel(imageUrl: Images.english, languageName: 'English', countryCode: 'US', languageCode: 'en'),
-    LanguageModel(imageUrl: Images.arabic, languageName: 'Arabic', countryCode: 'SA', languageCode: 'ar'),
-    LanguageModel(imageUrl: Images.spanish, languageName: 'Spanish', countryCode: 'ES', languageCode: 'es'),
-    LanguageModel(imageUrl: Images.bangla, languageName: 'Bengali', countryCode: 'BN', languageCode: 'bn'),
   ];
 }

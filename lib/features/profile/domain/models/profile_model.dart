@@ -1,4 +1,4 @@
-import 'package:eliyah_vendeur/features/store/domain/models/item_model.dart';
+import 'package:eliyah_store/features/store/domain/models/item_model.dart';
 
 class ProfileModel {
   int? id;

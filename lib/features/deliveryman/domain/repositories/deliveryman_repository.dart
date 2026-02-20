@@ -1,10 +1,10 @@
 import 'package:image_picker/image_picker.dart';
-import 'package:eliyah_vendeur/api/api_client.dart';
-import 'package:eliyah_vendeur/features/deliveryman/domain/models/delivery_man_model.dart';
-import 'package:eliyah_vendeur/features/store/domain/models/review_model.dart';
-import 'package:eliyah_vendeur/util/app_constants.dart';
+import 'package:eliyah_store/api/api_client.dart';
+import 'package:eliyah_store/features/deliveryman/domain/models/delivery_man_model.dart';
+import 'package:eliyah_store/features/store/domain/models/review_model.dart';
+import 'package:eliyah_store/util/app_constants.dart';
 import 'package:get/get.dart';
-import 'package:eliyah_vendeur/features/deliveryman/domain/repositories/deliveryman_repository_interface.dart';
+import 'package:eliyah_store/features/deliveryman/domain/repositories/deliveryman_repository_interface.dart';
 
 class DeliverymanRepository implements DeliverymanRepositoryInterface {
   final ApiClient apiClient;

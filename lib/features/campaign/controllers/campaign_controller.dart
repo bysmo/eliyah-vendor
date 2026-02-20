@@ -1,7 +1,7 @@
-import 'package:eliyah_vendeur/features/campaign/domain/models/campaign_model.dart';
-import 'package:eliyah_vendeur/common/widgets/custom_snackbar_widget.dart';
+import 'package:eliyah_store/features/campaign/domain/models/campaign_model.dart';
+import 'package:eliyah_store/common/widgets/custom_snackbar_widget.dart';
 import 'package:get/get.dart';
-import 'package:eliyah_vendeur/features/campaign/domain/services/campaign_service_interface.dart';
+import 'package:eliyah_store/features/campaign/domain/services/campaign_service_interface.dart';
 
 class CampaignController extends GetxController implements GetxService {
   final CampaignServiceInterface campaignServiceInterface;

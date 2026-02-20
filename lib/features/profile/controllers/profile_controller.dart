@@ -1,14 +1,14 @@
 import 'package:flutter/foundation.dart';
-import 'package:eliyah_vendeur/common/models/response_model.dart';
-import 'package:eliyah_vendeur/features/auth/controllers/auth_controller.dart';
-import 'package:eliyah_vendeur/features/auth/domain/models/module_permission_model.dart';
-import 'package:eliyah_vendeur/features/splash/controllers/splash_controller.dart';
-import 'package:eliyah_vendeur/features/profile/domain/models/profile_model.dart';
-import 'package:eliyah_vendeur/helper/route_helper.dart';
-import 'package:eliyah_vendeur/common/widgets/custom_snackbar_widget.dart';
+import 'package:eliyah_store/common/models/response_model.dart';
+import 'package:eliyah_store/features/auth/controllers/auth_controller.dart';
+import 'package:eliyah_store/features/auth/domain/models/module_permission_model.dart';
+import 'package:eliyah_store/features/splash/controllers/splash_controller.dart';
+import 'package:eliyah_store/features/profile/domain/models/profile_model.dart';
+import 'package:eliyah_store/helper/route_helper.dart';
+import 'package:eliyah_store/common/widgets/custom_snackbar_widget.dart';
 import 'package:get/get.dart';
 import 'package:image_picker/image_picker.dart';
-import 'package:eliyah_vendeur/features/profile/domain/services/profile_service_interface.dart';
+import 'package:eliyah_store/features/profile/domain/services/profile_service_interface.dart';
 
 class ProfileController extends GetxController implements GetxService {
   final ProfileServiceInterface profileServiceInterface;

@@ -1,11 +1,11 @@
 import 'dart:convert';
 import 'package:get/get.dart';
-import 'package:eliyah_vendeur/api/api_client.dart';
-import 'package:eliyah_vendeur/features/addon/domain/repositories/addon_repository_interface.dart';
-import 'package:eliyah_vendeur/features/addon/models/addon_category_model.dart';
-import 'package:eliyah_vendeur/features/splash/controllers/splash_controller.dart';
-import 'package:eliyah_vendeur/features/store/domain/models/item_model.dart';
-import 'package:eliyah_vendeur/util/app_constants.dart';
+import 'package:eliyah_store/api/api_client.dart';
+import 'package:eliyah_store/features/addon/domain/repositories/addon_repository_interface.dart';
+import 'package:eliyah_store/features/addon/models/addon_category_model.dart';
+import 'package:eliyah_store/features/splash/controllers/splash_controller.dart';
+import 'package:eliyah_store/features/store/domain/models/item_model.dart';
+import 'package:eliyah_store/util/app_constants.dart';
 
 class AddonRepository implements AddonRepositoryInterface<AddOns> {
   final ApiClient apiClient;

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:eliyah_vendeur/util/dimensions.dart';
-import 'package:eliyah_vendeur/common/widgets/custom_image_widget.dart';
+import 'package:eliyah_store/util/dimensions.dart';
+import 'package:eliyah_store/common/widgets/custom_image_widget.dart';
 
 class ImageDialogWidget extends StatelessWidget {
   final String imageUrl;

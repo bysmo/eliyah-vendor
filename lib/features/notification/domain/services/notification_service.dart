@@ -1,6 +1,6 @@
-import 'package:eliyah_vendeur/features/notification/domain/models/notification_model.dart';
-import 'package:eliyah_vendeur/features/notification/domain/repositories/notification_repository_interface.dart';
-import 'package:eliyah_vendeur/features/notification/domain/services/notification_service_interface.dart';
+import 'package:eliyah_store/features/notification/domain/models/notification_model.dart';
+import 'package:eliyah_store/features/notification/domain/repositories/notification_repository_interface.dart';
+import 'package:eliyah_store/features/notification/domain/services/notification_service_interface.dart';
 
 class NotificationService implements NotificationServiceInterface {
   final NotificationRepositoryInterface notificationRepositoryInterface;

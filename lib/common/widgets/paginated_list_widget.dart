@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:eliyah_vendeur/helper/responsive_helper.dart';
-import 'package:eliyah_vendeur/util/dimensions.dart';
-import 'package:eliyah_vendeur/util/styles.dart';
+import 'package:eliyah_store/helper/responsive_helper.dart';
+import 'package:eliyah_store/util/dimensions.dart';
+import 'package:eliyah_store/util/styles.dart';
 
 class PaginatedListWidget extends StatefulWidget {
   final ScrollController scrollController;

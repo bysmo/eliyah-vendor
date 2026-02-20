@@ -1,9 +1,9 @@
 import 'dart:async';
 import 'package:get/get.dart';
 import 'package:image_picker/image_picker.dart';
-import 'package:eliyah_vendeur/api/api_client.dart';
-import 'package:eliyah_vendeur/common/models/response_model.dart';
-import 'package:eliyah_vendeur/features/business/domain/models/package_model.dart';
+import 'package:eliyah_store/api/api_client.dart';
+import 'package:eliyah_store/common/models/response_model.dart';
+import 'package:eliyah_store/features/business/domain/models/package_model.dart';
 
 abstract class AuthServiceInterface {
   Future<Response> login(String? email, String password, String type);

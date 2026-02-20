@@ -1,6 +1,6 @@
 import 'package:image_picker/image_picker.dart';
-import 'package:eliyah_vendeur/common/models/response_model.dart';
-import 'package:eliyah_vendeur/features/profile/domain/models/profile_model.dart';
+import 'package:eliyah_store/common/models/response_model.dart';
+import 'package:eliyah_store/features/profile/domain/models/profile_model.dart';
 
 abstract class ProfileServiceInterface {
   Future<ProfileModel?> getProfileInfo();

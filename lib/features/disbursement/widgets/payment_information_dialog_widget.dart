@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:eliyah_vendeur/features/disbursement/domain/models/disbursement_report_model.dart';
-import 'package:eliyah_vendeur/helper/price_converter_helper.dart';
-import 'package:eliyah_vendeur/util/dimensions.dart';
-import 'package:eliyah_vendeur/util/styles.dart';
+import 'package:eliyah_store/features/disbursement/domain/models/disbursement_report_model.dart';
+import 'package:eliyah_store/helper/price_converter_helper.dart';
+import 'package:eliyah_store/util/dimensions.dart';
+import 'package:eliyah_store/util/styles.dart';
 
 class PaymentInformationDialogWidget extends StatelessWidget {
   final Disbursements disbursement;

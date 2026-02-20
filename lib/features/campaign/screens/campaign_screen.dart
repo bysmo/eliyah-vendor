@@ -1,8 +1,8 @@
-import 'package:eliyah_vendeur/features/campaign/controllers/campaign_controller.dart';
-import 'package:eliyah_vendeur/util/dimensions.dart';
-import 'package:eliyah_vendeur/util/styles.dart';
-import 'package:eliyah_vendeur/common/widgets/custom_app_bar_widget.dart';
-import 'package:eliyah_vendeur/features/campaign/widgets/campaign_widget.dart';
+import 'package:eliyah_store/features/campaign/controllers/campaign_controller.dart';
+import 'package:eliyah_store/util/dimensions.dart';
+import 'package:eliyah_store/util/styles.dart';
+import 'package:eliyah_store/common/widgets/custom_app_bar_widget.dart';
+import 'package:eliyah_store/features/campaign/widgets/campaign_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 

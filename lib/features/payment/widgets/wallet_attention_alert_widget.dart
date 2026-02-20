@@ -1,15 +1,15 @@
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:eliyah_vendeur/common/widgets/custom_bottom_sheet_widget.dart';
-import 'package:eliyah_vendeur/common/widgets/custom_snackbar_widget.dart';
-import 'package:eliyah_vendeur/features/profile/controllers/profile_controller.dart';
-import 'package:eliyah_vendeur/features/splash/controllers/splash_controller.dart';
-import 'package:eliyah_vendeur/helper/price_converter_helper.dart';
-import 'package:eliyah_vendeur/util/dimensions.dart';
-import 'package:eliyah_vendeur/util/images.dart';
-import 'package:eliyah_vendeur/util/styles.dart';
-import 'package:eliyah_vendeur/features/payment/widgets/payment_method_bottom_sheet_widget.dart';
+import 'package:eliyah_store/common/widgets/custom_bottom_sheet_widget.dart';
+import 'package:eliyah_store/common/widgets/custom_snackbar_widget.dart';
+import 'package:eliyah_store/features/profile/controllers/profile_controller.dart';
+import 'package:eliyah_store/features/splash/controllers/splash_controller.dart';
+import 'package:eliyah_store/helper/price_converter_helper.dart';
+import 'package:eliyah_store/util/dimensions.dart';
+import 'package:eliyah_store/util/images.dart';
+import 'package:eliyah_store/util/styles.dart';
+import 'package:eliyah_store/features/payment/widgets/payment_method_bottom_sheet_widget.dart';
 
 class WalletAttentionAlertWidget extends StatelessWidget {
   final bool isOverFlowBlockWarning;

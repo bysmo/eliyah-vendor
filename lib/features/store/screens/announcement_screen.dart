@@ -2,15 +2,15 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:just_the_tooltip/just_the_tooltip.dart';
-import 'package:eliyah_vendeur/common/widgets/custom_bottom_sheet_widget.dart';
-import 'package:eliyah_vendeur/features/store/controllers/store_controller.dart';
-import 'package:eliyah_vendeur/features/store/widgets/announcement_status_bottom_sheet.dart';
-import 'package:eliyah_vendeur/util/dimensions.dart';
-import 'package:eliyah_vendeur/util/styles.dart';
-import 'package:eliyah_vendeur/common/widgets/custom_app_bar_widget.dart';
-import 'package:eliyah_vendeur/common/widgets/custom_button_widget.dart';
-import 'package:eliyah_vendeur/common/widgets/custom_snackbar_widget.dart';
-import 'package:eliyah_vendeur/common/widgets/custom_text_field_widget.dart';
+import 'package:eliyah_store/common/widgets/custom_bottom_sheet_widget.dart';
+import 'package:eliyah_store/features/store/controllers/store_controller.dart';
+import 'package:eliyah_store/features/store/widgets/announcement_status_bottom_sheet.dart';
+import 'package:eliyah_store/util/dimensions.dart';
+import 'package:eliyah_store/util/styles.dart';
+import 'package:eliyah_store/common/widgets/custom_app_bar_widget.dart';
+import 'package:eliyah_store/common/widgets/custom_button_widget.dart';
+import 'package:eliyah_store/common/widgets/custom_snackbar_widget.dart';
+import 'package:eliyah_store/common/widgets/custom_text_field_widget.dart';
 
 class AnnouncementScreen extends StatefulWidget {
   final int announcementStatus;

@@ -1,13 +1,13 @@
 import 'package:get/get.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:eliyah_vendeur/api/api_client.dart';
-import 'package:eliyah_vendeur/common/models/response_model.dart';
-import 'package:eliyah_vendeur/features/order/domain/models/order_cancellation_body_model.dart';
-import 'package:eliyah_vendeur/features/order/domain/models/order_details_model.dart';
-import 'package:eliyah_vendeur/features/order/domain/models/order_model.dart';
-import 'package:eliyah_vendeur/features/order/domain/models/update_status_body_model.dart';
-import 'package:eliyah_vendeur/features/order/domain/repositories/order_repository_interface.dart';
-import 'package:eliyah_vendeur/util/app_constants.dart';
+import 'package:eliyah_store/api/api_client.dart';
+import 'package:eliyah_store/common/models/response_model.dart';
+import 'package:eliyah_store/features/order/domain/models/order_cancellation_body_model.dart';
+import 'package:eliyah_store/features/order/domain/models/order_details_model.dart';
+import 'package:eliyah_store/features/order/domain/models/order_model.dart';
+import 'package:eliyah_store/features/order/domain/models/update_status_body_model.dart';
+import 'package:eliyah_store/features/order/domain/repositories/order_repository_interface.dart';
+import 'package:eliyah_store/util/app_constants.dart';
 
 class OrderRepository implements OrderRepositoryInterface {
   final ApiClient apiClient;

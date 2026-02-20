@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:eliyah_vendeur/util/app_constants.dart';
+import 'package:eliyah_store/util/app_constants.dart';
 
 ThemeData dark = ThemeData(
   fontFamily: AppConstants.fontFamily,

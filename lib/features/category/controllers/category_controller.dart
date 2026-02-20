@@ -1,7 +1,7 @@
-import 'package:eliyah_vendeur/features/category/domain/models/category_model.dart';
-import 'package:eliyah_vendeur/features/store/domain/models/item_model.dart';
+import 'package:eliyah_store/features/category/domain/models/category_model.dart';
+import 'package:eliyah_store/features/store/domain/models/item_model.dart';
 import 'package:get/get.dart';
-import 'package:eliyah_vendeur/features/category/domain/services/category_service_interface.dart';
+import 'package:eliyah_store/features/category/domain/services/category_service_interface.dart';
 
 class CategoryController extends GetxController implements GetxService {
   final CategoryServiceInterface categoryServiceInterface;

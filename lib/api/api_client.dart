@@ -1,23 +1,23 @@
+import 'package:flutter/foundation.dart' as foundation;
 import 'dart:convert';
 import 'dart:io';
 import 'dart:typed_data';
 import 'package:file_picker/file_picker.dart';
 import 'package:http_parser/http_parser.dart';
-import 'package:eliyah_vendeur/api/api_checker.dart';
-import 'package:eliyah_vendeur/common/models/error_response.dart';
-import 'package:eliyah_vendeur/util/app_constants.dart';
+import 'package:eliyah_store/api/api_checker.dart';
+import 'package:eliyah_store/common/models/error_response.dart';
+import 'package:eliyah_store/util/app_constants.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:path/path.dart';
 import 'package:http/http.dart' as http;
-import 'package:flutter/foundation.dart' as foundation;
 
 class ApiClient extends GetxService {
   final String appBaseUrl;
   final SharedPreferences sharedPreferences;
-  static const String noInternetMessage = 'Connection to API server failed due to internet connection';
+  static const String noInternetMessage = 'La connexion au serveur API a échoué en raison d\'une connexion Internet';
   final int timeoutInSeconds = 30;
 
   String? token;
@@ -72,10 +72,31 @@ class ApiClient extends GetxService {
 
   Future<Response> postMultipartData(String uri, Map<String, String> body, List<MultipartBody> multipartBody, {List<MultipartDocument>? multipartDocument, Map<String, String>? headers, bool handleError = true}) async {
     try {
-      debugPrint('====> API Call: $uri\nHeader: $_mainHeaders');
-      debugPrint('====> API Body: $body with ${multipartBody.length} and multipart ${multipartDocument?.length}');
+      if (foundation.kDebugMode) {
+        print('====> API Call: $uri\nHeader: ${headers ?? _mainHeaders}');
+        print('====> API Body: $body with ${multipartBody.length} and multipart ${multipartDocument?.length}');
+      }
       http.MultipartRequest request = http.MultipartRequest('POST', Uri.parse(appBaseUrl+uri));
-      request.headers.addAll(headers ?? _mainHeaders);
+
+      // Use a copy of headers to avoid modifying _mainHeaders and to handle multipart specific requirements
+      Map<String, String> finalHeaders = {};
+      finalHeaders.addAll(headers ?? _mainHeaders);
+
+      // Remove Content-Type for multipart requests as http package handles it with boundary
+      finalHeaders.remove('Content-Type');
+
+      // Remove Authorization if token is empty
+      if (finalHeaders['Authorization'] == 'Bearer ' || finalHeaders['Authorization'] == 'Bearer null') {
+        finalHeaders.remove('Authorization');
+      }
+
+      // Ensure moduleId header is present if it's in the body
+      if (body.containsKey('module_id') && (finalHeaders[AppConstants.moduleId] == null || finalHeaders[AppConstants.moduleId]!.isEmpty)) {
+        finalHeaders[AppConstants.moduleId] = body['module_id']!;
+      }
+
+      request.headers.addAll(finalHeaders);
+
       for(MultipartBody multipart in multipartBody) {
         if(multipart.file != null) {
           if(foundation.kIsWeb) {
@@ -105,8 +126,16 @@ class ApiClient extends GetxService {
 
       request.fields.addAll(body);
       http.Response response = await http.Response.fromStream(await request.send());
+
+      if (foundation.kDebugMode) {
+        print('====> API Response [${response.statusCode}] $uri\n${response.body}');
+      }
+
       return handleResponse(response, uri, handleError);
     } catch (e) {
+      if (foundation.kDebugMode) {
+        print('====> API Error: $e');
+      }
       return const Response(statusCode: 1, statusText: noInternetMessage);
     }
   }

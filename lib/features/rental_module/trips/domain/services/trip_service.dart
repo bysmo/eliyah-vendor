@@ -1,5 +1,5 @@
-import 'package:eliyah_vendeur/features/rental_module/trips/domain/repositories/trip_repository_interface.dart';
-import 'package:eliyah_vendeur/features/rental_module/trips/domain/services/trip_service_interface.dart';
+import 'package:eliyah_store/features/rental_module/trips/domain/repositories/trip_repository_interface.dart';
+import 'package:eliyah_store/features/rental_module/trips/domain/services/trip_service_interface.dart';
 
 class TripService implements TripServiceInterface{
   final TripRepositoryInterface tripRepositoryInterface;

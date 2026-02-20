@@ -1,8 +1,8 @@
-import 'package:eliyah_vendeur/api/api_client.dart';
-import 'package:eliyah_vendeur/features/advertisement/domain/repositories/advertisement_repository_interface.dart';
-import 'package:eliyah_vendeur/features/advertisement/models/ads_details_model.dart';
-import 'package:eliyah_vendeur/features/advertisement/models/advertisement_model.dart';
-import 'package:eliyah_vendeur/util/app_constants.dart';
+import 'package:eliyah_store/api/api_client.dart';
+import 'package:eliyah_store/features/advertisement/domain/repositories/advertisement_repository_interface.dart';
+import 'package:eliyah_store/features/advertisement/models/ads_details_model.dart';
+import 'package:eliyah_store/features/advertisement/models/advertisement_model.dart';
+import 'package:eliyah_store/util/app_constants.dart';
 import 'package:get/get.dart';
 
 class AdvertisementRepository implements AdvertisementRepositoryInterface {

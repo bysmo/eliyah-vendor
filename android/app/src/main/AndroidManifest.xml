@@ -38,12 +38,12 @@
         </queries>
 
         <application
-            android:label="Eliyah-Express Vendeur"
             android:name="${applicationName}"
             android:extractNativeLibs="true"
             android:requestLegacyExternalStorage="true"
             android:usesCleartextTraffic="true"
-            android:icon="@mipmap/ic_launcher">
+            android:icon="@mipmap/launcher_icon"
+            android:label="Eliyah Store">
             <meta-data android:name="com.google.android.geo.API_KEY"
                 android:value="AIzaSyCLFjt3gq2exdZlxvmMailgFif75kUUJJ4"/>
 
@@ -75,7 +75,7 @@
 
             <meta-data
                 android:name="com.google.firebase.messaging.default_notification_channel_id"
-                android:value="eliyah_express" />
+                android:value="eliyah-express" />
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER"/>

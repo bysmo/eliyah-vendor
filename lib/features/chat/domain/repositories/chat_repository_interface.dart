@@ -1,5 +1,5 @@
-import 'package:eliyah_vendeur/api/api_client.dart';
-import 'package:eliyah_vendeur/interface/repository_interface.dart';
+import 'package:eliyah_store/api/api_client.dart';
+import 'package:eliyah_store/interface/repository_interface.dart';
 
 abstract class ChatRepositoryInterface implements RepositoryInterface {
   Future<dynamic> getConversationList(int offset);

@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:eliyah_vendeur/features/reports/controllers/report_controller.dart';
-import 'package:eliyah_vendeur/features/reports/expense/widgets/expense_card_widget.dart';
-import 'package:eliyah_vendeur/helper/date_converter_helper.dart';
-import 'package:eliyah_vendeur/util/dimensions.dart';
-import 'package:eliyah_vendeur/util/styles.dart';
-import 'package:eliyah_vendeur/common/widgets/custom_app_bar_widget.dart';
-import 'package:eliyah_vendeur/common/widgets/custom_snackbar_widget.dart';
+import 'package:eliyah_store/features/reports/controllers/report_controller.dart';
+import 'package:eliyah_store/features/reports/expense/widgets/expense_card_widget.dart';
+import 'package:eliyah_store/helper/date_converter_helper.dart';
+import 'package:eliyah_store/util/dimensions.dart';
+import 'package:eliyah_store/util/styles.dart';
+import 'package:eliyah_store/common/widgets/custom_app_bar_widget.dart';
+import 'package:eliyah_store/common/widgets/custom_snackbar_widget.dart';
 
 class ExpenseScreen extends StatefulWidget {
   const ExpenseScreen({super.key});

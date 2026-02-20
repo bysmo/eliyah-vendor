@@ -1,10 +1,10 @@
 import 'package:image_picker/image_picker.dart';
-import 'package:eliyah_vendeur/api/api_client.dart';
-import 'package:eliyah_vendeur/common/models/response_model.dart';
-import 'package:eliyah_vendeur/features/order/domain/models/order_cancellation_body_model.dart';
-import 'package:eliyah_vendeur/features/order/domain/models/order_details_model.dart';
-import 'package:eliyah_vendeur/features/order/domain/models/order_model.dart';
-import 'package:eliyah_vendeur/features/order/domain/models/update_status_body_model.dart';
+import 'package:eliyah_store/api/api_client.dart';
+import 'package:eliyah_store/common/models/response_model.dart';
+import 'package:eliyah_store/features/order/domain/models/order_cancellation_body_model.dart';
+import 'package:eliyah_store/features/order/domain/models/order_details_model.dart';
+import 'package:eliyah_store/features/order/domain/models/order_model.dart';
+import 'package:eliyah_store/features/order/domain/models/update_status_body_model.dart';
 
 abstract class OrderServiceInterface {
   Future<List<OrderModel>?> getCurrentOrders();

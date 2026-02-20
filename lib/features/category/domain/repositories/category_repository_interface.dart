@@ -1,5 +1,5 @@
-import 'package:eliyah_vendeur/features/store/domain/models/item_model.dart';
-import 'package:eliyah_vendeur/interface/repository_interface.dart';
+import 'package:eliyah_store/features/store/domain/models/item_model.dart';
+import 'package:eliyah_store/interface/repository_interface.dart';
 
 abstract class CategoryRepositoryInterface implements RepositoryInterface {
   Future<dynamic> getSubCategoryList(int? parentID);

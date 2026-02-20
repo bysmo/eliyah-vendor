@@ -1,9 +1,9 @@
-import 'package:eliyah_vendeur/features/addon/models/addon_category_model.dart';
-import 'package:eliyah_vendeur/features/profile/controllers/profile_controller.dart';
-import 'package:eliyah_vendeur/features/store/domain/models/item_model.dart';
-import 'package:eliyah_vendeur/common/widgets/custom_snackbar_widget.dart';
+import 'package:eliyah_store/features/addon/models/addon_category_model.dart';
+import 'package:eliyah_store/features/profile/controllers/profile_controller.dart';
+import 'package:eliyah_store/features/store/domain/models/item_model.dart';
+import 'package:eliyah_store/common/widgets/custom_snackbar_widget.dart';
 import 'package:get/get.dart';
-import 'package:eliyah_vendeur/features/addon/domain/services/addon_service_interface.dart';
+import 'package:eliyah_store/features/addon/domain/services/addon_service_interface.dart';
 
 class AddonController extends GetxController implements GetxService {
   final AddonServiceInterface addonServiceInterface;

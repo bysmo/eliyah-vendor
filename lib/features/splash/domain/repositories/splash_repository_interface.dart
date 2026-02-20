@@ -1,4 +1,4 @@
-import 'package:eliyah_vendeur/interface/repository_interface.dart';
+import 'package:eliyah_store/interface/repository_interface.dart';
 
 abstract class SplashRepositoryInterface implements RepositoryInterface {
   Future<dynamic> getConfigData();

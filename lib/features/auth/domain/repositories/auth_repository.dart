@@ -1,13 +1,13 @@
 import 'dart:async';
 import 'package:flutter/foundation.dart';
 import 'package:image_picker/image_picker.dart';
-import 'package:eliyah_vendeur/api/api_client.dart';
-import 'package:eliyah_vendeur/features/business/domain/models/package_model.dart';
-import 'package:eliyah_vendeur/util/app_constants.dart';
+import 'package:eliyah_store/api/api_client.dart';
+import 'package:eliyah_store/features/business/domain/models/package_model.dart';
+import 'package:eliyah_store/util/app_constants.dart';
 import 'package:firebase_messaging/firebase_messaging.dart';
 import 'package:get/get.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:eliyah_vendeur/features/auth/domain/repositories/auth_repository_interface.dart';
+import 'package:eliyah_store/features/auth/domain/repositories/auth_repository_interface.dart';
 
 class AuthRepository implements AuthRepositoryInterface {
   final ApiClient apiClient;

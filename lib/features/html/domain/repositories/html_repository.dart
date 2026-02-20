@@ -1,8 +1,8 @@
 import 'package:get/get.dart';
-import 'package:eliyah_vendeur/api/api_client.dart';
-import 'package:eliyah_vendeur/features/html/domain/repositories/html_repository_interface.dart';
-import 'package:eliyah_vendeur/features/language/controllers/language_controller.dart';
-import 'package:eliyah_vendeur/util/app_constants.dart';
+import 'package:eliyah_store/api/api_client.dart';
+import 'package:eliyah_store/features/html/domain/repositories/html_repository_interface.dart';
+import 'package:eliyah_store/features/language/controllers/language_controller.dart';
+import 'package:eliyah_store/util/app_constants.dart';
 
 class HtmlRepository implements HtmlRepositoryInterface {
   final ApiClient apiClient;

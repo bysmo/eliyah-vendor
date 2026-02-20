@@ -1,8 +1,8 @@
 import 'package:flutter_widget_from_html_core/flutter_widget_from_html_core.dart';
-import 'package:eliyah_vendeur/features/html/controllers/html_controller.dart';
+import 'package:eliyah_store/features/html/controllers/html_controller.dart';
 import 'package:flutter/material.dart';
-import 'package:eliyah_vendeur/util/dimensions.dart';
-import 'package:eliyah_vendeur/common/widgets/custom_app_bar_widget.dart';
+import 'package:eliyah_store/util/dimensions.dart';
+import 'package:eliyah_store/common/widgets/custom_app_bar_widget.dart';
 import 'package:get/get.dart';
 import 'package:url_launcher/url_launcher_string.dart';
 

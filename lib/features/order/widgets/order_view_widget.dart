@@ -1,6 +1,6 @@
-import 'package:eliyah_vendeur/features/order/controllers/order_controller.dart';
-import 'package:eliyah_vendeur/util/dimensions.dart';
-import 'package:eliyah_vendeur/common/widgets/order_widget.dart';
+import 'package:eliyah_store/features/order/controllers/order_controller.dart';
+import 'package:eliyah_store/util/dimensions.dart';
+import 'package:eliyah_store/common/widgets/order_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 

@@ -1,6 +1,6 @@
 {
-    "name": "Eliyah-Express Vendeur",
-    "short_name": "Eliyah Vendeur",
+    "name": "Eliyah Store",
+    "short_name": "Eliyah Store",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

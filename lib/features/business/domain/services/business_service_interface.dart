@@ -1,5 +1,5 @@
-import 'package:eliyah_vendeur/features/business/domain/models/business_plan_body.dart';
-import 'package:eliyah_vendeur/features/business/domain/models/package_model.dart';
+import 'package:eliyah_store/features/business/domain/models/business_plan_body.dart';
+import 'package:eliyah_store/features/business/domain/models/package_model.dart';
 
 abstract class BusinessServiceInterface{
   Future<PackageModel?> getPackageList();

@@ -1,11 +1,11 @@
-import 'package:eliyah_vendeur/features/order/controllers/order_controller.dart';
-import 'package:eliyah_vendeur/features/profile/controllers/profile_controller.dart';
-import 'package:eliyah_vendeur/util/dimensions.dart';
-import 'package:eliyah_vendeur/util/styles.dart';
-import 'package:eliyah_vendeur/common/widgets/custom_app_bar_widget.dart';
-import 'package:eliyah_vendeur/features/home/widgets/order_button_widget.dart';
-import 'package:eliyah_vendeur/features/order/widgets/count_widget.dart';
-import 'package:eliyah_vendeur/features/order/widgets/order_view_widget.dart';
+import 'package:eliyah_store/features/order/controllers/order_controller.dart';
+import 'package:eliyah_store/features/profile/controllers/profile_controller.dart';
+import 'package:eliyah_store/util/dimensions.dart';
+import 'package:eliyah_store/util/styles.dart';
+import 'package:eliyah_store/common/widgets/custom_app_bar_widget.dart';
+import 'package:eliyah_store/features/home/widgets/order_button_widget.dart';
+import 'package:eliyah_store/features/order/widgets/count_widget.dart';
+import 'package:eliyah_store/features/order/widgets/order_view_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 

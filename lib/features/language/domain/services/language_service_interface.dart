@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:eliyah_vendeur/features/language/domain/models/language_model.dart';
+import 'package:eliyah_store/features/language/domain/models/language_model.dart';
 
 abstract class LanguageServiceInterface {
   bool setLTR(Locale locale);

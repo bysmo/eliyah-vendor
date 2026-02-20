@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:shimmer_animation/shimmer_animation.dart';
-import 'package:eliyah_vendeur/util/dimensions.dart';
+import 'package:eliyah_store/util/dimensions.dart';
 
 class CustomShimmerWidget extends StatelessWidget {
   final double? height;

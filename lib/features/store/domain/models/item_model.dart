@@ -1,5 +1,5 @@
 import 'package:get/get.dart';
-import 'package:eliyah_vendeur/features/splash/controllers/splash_controller.dart';
+import 'package:eliyah_store/features/splash/controllers/splash_controller.dart';
 
 class ItemModel {
   int? _totalSize;

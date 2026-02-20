@@ -1,5 +1,5 @@
-import 'package:eliyah_vendeur/features/profile/domain/models/profile_model.dart';
-import 'package:eliyah_vendeur/interface/repository_interface.dart';
+import 'package:eliyah_store/features/profile/domain/models/profile_model.dart';
+import 'package:eliyah_store/interface/repository_interface.dart';
 
 abstract class ForgotPasswordRepositoryInterface implements RepositoryInterface {
   Future<dynamic> changePassword(ProfileModel userInfoModel, String password);

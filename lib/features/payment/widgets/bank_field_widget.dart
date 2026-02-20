@@ -1,5 +1,5 @@
-import 'package:eliyah_vendeur/util/dimensions.dart';
-import 'package:eliyah_vendeur/util/styles.dart';
+import 'package:eliyah_store/util/dimensions.dart';
+import 'package:eliyah_store/util/styles.dart';
 import 'package:flutter/material.dart';
 
 class BankFieldWidget extends StatelessWidget {

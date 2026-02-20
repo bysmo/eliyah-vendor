@@ -2,6 +2,7 @@ class Images {
   static const String logo = 'assets/image/logo.png';
   static const String arabic = 'assets/image/arabic.png';
   static const String english = 'assets/image/english.png';
+  static const String french = 'assets/image/french.png';
   static const String bangla = 'assets/image/bangla.png';
   static const String spanish = 'assets/image/spanish.png';
   static const String call = 'assets/image/call.png';

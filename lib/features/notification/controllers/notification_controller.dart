@@ -1,7 +1,7 @@
-import 'package:eliyah_vendeur/features/notification/domain/models/notification_model.dart';
-import 'package:eliyah_vendeur/helper/date_converter_helper.dart';
+import 'package:eliyah_store/features/notification/domain/models/notification_model.dart';
+import 'package:eliyah_store/helper/date_converter_helper.dart';
 import 'package:get/get.dart';
-import 'package:eliyah_vendeur/features/notification/domain/services/notification_service_interface.dart';
+import 'package:eliyah_store/features/notification/domain/services/notification_service_interface.dart';
 
 class NotificationController extends GetxController implements GetxService {
   final NotificationServiceInterface notificationServiceInterface;

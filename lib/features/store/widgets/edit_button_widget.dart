@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:eliyah_vendeur/util/dimensions.dart';
+import 'package:eliyah_store/util/dimensions.dart';
 
 class EditButtonWidget extends StatefulWidget {
   final Function onTap;

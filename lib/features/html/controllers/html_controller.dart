@@ -1,5 +1,5 @@
 import 'package:get/get.dart';
-import 'package:eliyah_vendeur/features/html/domain/services/html_service_interface.dart';
+import 'package:eliyah_store/features/html/domain/services/html_service_interface.dart';
 
 class HtmlController extends GetxController implements GetxService {
   final HtmlServiceInterface htmlServiceInterface;

@@ -3,9 +3,9 @@ import 'package:flutter_typeahead/flutter_typeahead.dart';
 import 'package:geolocator/geolocator.dart';
 import 'package:get/get.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
-import 'package:eliyah_vendeur/features/address/controllers/address_controller.dart';
-import 'package:eliyah_vendeur/features/address/domain/models/prediction_model.dart';
-import 'package:eliyah_vendeur/util/dimensions.dart';
+import 'package:eliyah_store/features/address/controllers/address_controller.dart';
+import 'package:eliyah_store/features/address/domain/models/prediction_model.dart';
+import 'package:eliyah_store/util/dimensions.dart';
 
 class LocationSearchDialogWidget extends StatelessWidget {
   final GoogleMapController? mapController;

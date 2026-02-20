@@ -1,7 +1,7 @@
 import 'package:country_code_picker/country_code_picker.dart';
-import 'package:eliyah_vendeur/common/widgets/code_picker_widget.dart';
-import 'package:eliyah_vendeur/util/dimensions.dart';
-import 'package:eliyah_vendeur/util/styles.dart';
+import 'package:eliyah_store/common/widgets/code_picker_widget.dart';
+import 'package:eliyah_store/util/dimensions.dart';
+import 'package:eliyah_store/util/styles.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:get/get.dart';

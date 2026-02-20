@@ -1,7 +1,7 @@
-import 'package:eliyah_vendeur/common/models/response_model.dart';
-import 'package:eliyah_vendeur/features/payment/domain/models/wallet_payment_model.dart';
-import 'package:eliyah_vendeur/features/payment/domain/models/widthdrow_method_model.dart';
-import 'package:eliyah_vendeur/features/payment/domain/models/withdraw_model.dart';
+import 'package:eliyah_store/common/models/response_model.dart';
+import 'package:eliyah_store/features/payment/domain/models/wallet_payment_model.dart';
+import 'package:eliyah_store/features/payment/domain/models/widthdrow_method_model.dart';
+import 'package:eliyah_store/features/payment/domain/models/withdraw_model.dart';
 
 abstract class PaymentServiceInterface {
   Future<bool> updateBankInfo(Map<String, dynamic> body);

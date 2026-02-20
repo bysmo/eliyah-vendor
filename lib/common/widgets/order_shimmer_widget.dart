@@ -1,5 +1,5 @@
-import 'package:eliyah_vendeur/common/widgets/custom_shimmer_widget.dart';
-import 'package:eliyah_vendeur/util/dimensions.dart';
+import 'package:eliyah_store/common/widgets/custom_shimmer_widget.dart';
+import 'package:eliyah_store/util/dimensions.dart';
 import 'package:flutter/material.dart';
 
 class OrderShimmerWidget extends StatelessWidget {

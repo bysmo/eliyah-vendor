@@ -1,5 +1,5 @@
-import 'package:eliyah_vendeur/features/rental_module/profile/domain/repositories/taxi_profile_repository_interface.dart';
-import 'package:eliyah_vendeur/features/rental_module/profile/domain/services/taxi_profile_service_interface.dart';
+import 'package:eliyah_store/features/rental_module/profile/domain/repositories/taxi_profile_repository_interface.dart';
+import 'package:eliyah_store/features/rental_module/profile/domain/services/taxi_profile_service_interface.dart';
 
 class TaxiProfileService implements TaxiProfileServiceInterface {
   final TaxiProfileRepositoryInterface taxiProfileRepositoryInterface;

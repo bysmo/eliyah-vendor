@@ -1,9 +1,9 @@
 import 'package:get/get.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:eliyah_vendeur/api/api_client.dart';
-import 'package:eliyah_vendeur/features/notification/domain/models/notification_model.dart';
-import 'package:eliyah_vendeur/features/notification/domain/repositories/notification_repository_interface.dart';
-import 'package:eliyah_vendeur/util/app_constants.dart';
+import 'package:eliyah_store/api/api_client.dart';
+import 'package:eliyah_store/features/notification/domain/models/notification_model.dart';
+import 'package:eliyah_store/features/notification/domain/repositories/notification_repository_interface.dart';
+import 'package:eliyah_store/util/app_constants.dart';
 
 class NotificationRepository implements NotificationRepositoryInterface {
   final ApiClient apiClient;

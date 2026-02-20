@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:eliyah_vendeur/features/auth/controllers/auth_controller.dart';
-import 'package:eliyah_vendeur/util/dimensions.dart';
-import 'package:eliyah_vendeur/util/styles.dart';
+import 'package:eliyah_store/features/auth/controllers/auth_controller.dart';
+import 'package:eliyah_store/util/dimensions.dart';
+import 'package:eliyah_store/util/styles.dart';
 
 class BaseCardWidget extends StatelessWidget {
   final AuthController authController;

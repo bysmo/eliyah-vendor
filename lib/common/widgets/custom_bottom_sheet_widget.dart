@@ -1,4 +1,4 @@
-import 'package:eliyah_vendeur/util/dimensions.dart';
+import 'package:eliyah_store/util/dimensions.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 

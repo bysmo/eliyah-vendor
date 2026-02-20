@@ -1,4 +1,4 @@
-import 'package:eliyah_vendeur/features/store/domain/models/attr.dart';
+import 'package:eliyah_store/features/store/domain/models/attr.dart';
 import 'package:flutter/material.dart';
 
 class AttributeModel {

@@ -1,8 +1,8 @@
-import 'package:eliyah_vendeur/common/models/config_model.dart';
+import 'package:eliyah_store/common/models/config_model.dart';
 import 'package:get/get.dart';
 import 'package:intl/intl.dart';
-import 'package:eliyah_vendeur/features/profile/controllers/profile_controller.dart';
-import 'package:eliyah_vendeur/features/splash/domain/services/splash_service_interface.dart';
+import 'package:eliyah_store/features/profile/controllers/profile_controller.dart';
+import 'package:eliyah_store/features/splash/domain/services/splash_service_interface.dart';
 
 class SplashController extends GetxController implements GetxService {
   final SplashServiceInterface splashServiceInterface;

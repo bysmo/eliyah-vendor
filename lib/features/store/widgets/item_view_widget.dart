@@ -1,9 +1,9 @@
 import 'package:flutter/rendering.dart';
-import 'package:eliyah_vendeur/features/store/controllers/store_controller.dart';
-import 'package:eliyah_vendeur/util/dimensions.dart';
-import 'package:eliyah_vendeur/common/widgets/item_shimmer_widget.dart';
-import 'package:eliyah_vendeur/common/widgets/item_widget.dart';
-import 'package:eliyah_vendeur/features/store/widgets/veg_filter_widget.dart';
+import 'package:eliyah_store/features/store/controllers/store_controller.dart';
+import 'package:eliyah_store/util/dimensions.dart';
+import 'package:eliyah_store/common/widgets/item_shimmer_widget.dart';
+import 'package:eliyah_store/common/widgets/item_widget.dart';
+import 'package:eliyah_store/features/store/widgets/veg_filter_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 

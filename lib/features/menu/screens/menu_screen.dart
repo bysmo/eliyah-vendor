@@ -1,15 +1,15 @@
-import 'package:eliyah_vendeur/features/auth/domain/models/module_permission_model.dart';
-import 'package:eliyah_vendeur/features/profile/controllers/profile_controller.dart';
-import 'package:eliyah_vendeur/features/splash/controllers/splash_controller.dart';
-import 'package:eliyah_vendeur/features/menu/domain/models/menu_model.dart';
-import 'package:eliyah_vendeur/helper/responsive_helper.dart';
-import 'package:eliyah_vendeur/helper/route_helper.dart';
-import 'package:eliyah_vendeur/util/dimensions.dart';
-import 'package:eliyah_vendeur/util/images.dart';
-import 'package:eliyah_vendeur/features/menu/widgets/menu_button_widget.dart';
+import 'package:eliyah_store/features/auth/domain/models/module_permission_model.dart';
+import 'package:eliyah_store/features/profile/controllers/profile_controller.dart';
+import 'package:eliyah_store/features/splash/controllers/splash_controller.dart';
+import 'package:eliyah_store/features/menu/domain/models/menu_model.dart';
+import 'package:eliyah_store/helper/responsive_helper.dart';
+import 'package:eliyah_store/helper/route_helper.dart';
+import 'package:eliyah_store/util/dimensions.dart';
+import 'package:eliyah_store/util/images.dart';
+import 'package:eliyah_store/features/menu/widgets/menu_button_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:eliyah_vendeur/features/profile/domain/models/profile_model.dart';
+import 'package:eliyah_store/features/profile/domain/models/profile_model.dart';
 
 class MenuScreen extends StatelessWidget {
   const MenuScreen({super.key});

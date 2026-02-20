@@ -1,9 +1,9 @@
 import 'package:get/get.dart';
-import 'package:eliyah_vendeur/api/api_client.dart';
-import 'package:eliyah_vendeur/features/disbursement/domain/repositories/disbursement_repository_interface.dart';
-import 'package:eliyah_vendeur/features/disbursement/domain/models/disbursement_method_model.dart' as disburse;
-import 'package:eliyah_vendeur/features/disbursement/domain/models/disbursement_report_model.dart' as report;
-import 'package:eliyah_vendeur/util/app_constants.dart';
+import 'package:eliyah_store/api/api_client.dart';
+import 'package:eliyah_store/features/disbursement/domain/repositories/disbursement_repository_interface.dart';
+import 'package:eliyah_store/features/disbursement/domain/models/disbursement_method_model.dart' as disburse;
+import 'package:eliyah_store/features/disbursement/domain/models/disbursement_report_model.dart' as report;
+import 'package:eliyah_store/util/app_constants.dart';
 
 class DisbursementRepository implements DisbursementRepositoryInterface {
   final ApiClient apiClient;

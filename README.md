@@ -1,8 +1,8 @@
-# Eliyah Vendor - Application de Gestion pour Vendeurs
+# Eliyah Vendeur - Application de Gestion pour Vendeurs
 
 ## 📱 Description
 
-**Eliyah Vendor** est une application mobile complète de e-commerce destinée aux acteurs vendeurs. Elle permet une gestion efficace de votre activité commerciale avec des fonctionnalités avancées pour la gestion de stock, des articles, des commandes et du personnel.
+**Eliyah Vendeur** est une application mobile complète de e-commerce destinée aux acteurs vendeurs. Elle permet une gestion efficace de votre activité commerciale avec des fonctionnalités avancées pour la gestion de stock, des articles, des commandes et du personnel.
 
 Cette application fait partie de l'écosystème **Eliyah Express**, une plateforme multivendeur qui connecte les vendeurs et les clients pour une expérience d'achat en ligne optimale.
 
